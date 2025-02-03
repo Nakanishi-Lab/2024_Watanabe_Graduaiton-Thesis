@@ -144,6 +144,22 @@ INPUT ./chapters/sec2.tex
 INPUT chapters/sec2.tex
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/zenrarobot.jpg
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/zenrarobot.jpg
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/zenrarobot.jpg
+INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/zenrarobot.jpg
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/fishrobot.jpg
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/fishrobot.jpg
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/fishrobot.jpg
+INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/fishrobot.jpg
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/mosikizu.jpg
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/mosikizu.jpg
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/mosikizu.jpg
+INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/mosikizu.jpg
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/link.png
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/link.png
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/link.png
+INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/link.png
 INPUT ./chapters/conclusion.tex
 INPUT ./chapters/conclusion.tex
 OUTPUT chapters/conclusion.aux
