@@ -9,5 +9,7 @@
 \contentsline {subsubsection}{\numberline {2.3.1}遊泳実験結果}{4}{}%
 \contentsline {subsubsection}{\numberline {2.3.2}防水実験結果}{5}{}%
 \contentsline {subsection}{\numberline {2.4}得られた知見}{5}{}%
-\contentsline {section}{\numberline {3}結言}{6}{}%
-\contentsline {section}{\numberline {4}謝辞}{7}{}%
+\contentsline {section}{\numberline {3}ワイヤ駆動式魚ロボットの開発}{6}{}%
+\contentsline {subsection}{\numberline {3.1}本研究の目的}{6}{}%
+\contentsline {section}{\numberline {4}結言}{7}{}%
+\contentsline {section}{\numberline {5}謝辞}{8}{}%

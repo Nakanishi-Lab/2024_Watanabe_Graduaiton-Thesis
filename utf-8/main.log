@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.11)  3 FEB 2025 14:51
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.11)  3 FEB 2025 15:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -201,7 +201,7 @@ File: l3backend-dvips.def 2024-03-14 L3 backend support: dvips
 \g__pdf_backend_annotation_int=\count282
 \g__pdf_backend_link_int=\count283
 \g__pdf_backend_link_sf_int=\count284
-) (./main.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
+) (./main.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -306,12 +306,22 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [5]
+\openout2 = `chapters/sec3.aux'.
+
+ (./chapters/sec3.tex)
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [6
+
+
+
+]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex)
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [6
+ [7
 
 
 
@@ -321,7 +331,7 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
  (./chapters/acknowledgement.tex)
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [7
+ [8
 
 
 
@@ -331,11 +341,11 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
  (./chapters/bibliography.tex)
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [8
+ [9
 
 
 
-] (./main.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
+] (./main.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01> patch level 1
@@ -343,12 +353,12 @@ L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3920 strings out of 474761
- 71113 string characters out of 5761786
+ 3945 strings out of 474761
+ 71801 string characters out of 5761786
  1928341 words of memory out of 5000000
- 26214 multiletter control sequences out of 15000+600000
+ 26232 multiletter control sequences out of 15000+600000
  572377 words of font info for 91 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  67i,13n,77p,437b,693s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (11 pages, 30240 bytes).
+Output written on main.dvi (12 pages, 31932 bytes).
