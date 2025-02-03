@@ -11,5 +11,6 @@
 \contentsline {subsection}{\numberline {2.4}得られた知見}{5}{}%
 \contentsline {section}{\numberline {3}ワイヤ駆動式魚ロボットの開発}{6}{}%
 \contentsline {subsection}{\numberline {3.1}本研究の目的}{6}{}%
+\contentsline {subsection}{\numberline {3.2}動作原理}{6}{}%
 \contentsline {section}{\numberline {4}結言}{7}{}%
 \contentsline {section}{\numberline {5}謝辞}{8}{}%

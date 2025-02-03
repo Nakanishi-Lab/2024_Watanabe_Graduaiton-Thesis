@@ -197,6 +197,10 @@ OUTPUT chapters/sec3.aux
 INPUT ./chapters/sec3.tex
 INPUT ./chapters/sec3.tex
 INPUT chapters/sec3.tex
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/waiyakudou.eps
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/waiyakudou.eps
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/waiyakudou.eps
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/waiyakudou.eps
 INPUT ./chapters/conclusion.tex
 INPUT ./chapters/conclusion.tex
 OUTPUT chapters/conclusion.aux

@@ -1,10 +1,10 @@
 # Fdb version 4
-["dvipdf"] 1738563478.52024 "main.dvi" "main.pdf" "main" 1738563481.05105 0
-  "main.dvi" 1738563478 31932 cbab76a03b6bd9ca69c2d261a84b4de8 "latex"
+["dvipdf"] 1738575118.00869 "main.dvi" "main.pdf" "main" 1738575121.44605 0
+  "main.dvi" 1738575117 35664 31cc14622612aae5a7d109bd3b2a1273 "latex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["latex"] 1738563471.25956 "c:/Users/watanabe_shouta/2024_graduation_thesis/utf-8/main.tex" "main.dvi" "main" 1738563481.04584 0
+["latex"] 1738575110.5447 "c:/Users/watanabe_shouta/2024_graduation_thesis/utf-8/main.tex" "main.dvi" "main" 1738575121.44076 0
   "/Users/watanabe_shouta/2024_graduation_thesis/picture/aka.png" 1738559791 68631 91a618af06bf1419a9f39c934e9a672d ""
   "/Users/watanabe_shouta/2024_graduation_thesis/picture/fishrobot.jpg" 1738546785 15561 b30628745eb29172f23fd9c36e4a3eb5 ""
   "/Users/watanabe_shouta/2024_graduation_thesis/picture/link.png" 1738548360 25476 e0b082a7d508ec9c5dfd9e97967948d6 ""
@@ -13,6 +13,7 @@
   "/Users/watanabe_shouta/2024_graduation_thesis/picture/siro_obire.png" 1738559791 209137 db6abb83f9cb553921a7bbbc49c6c337 ""
   "/Users/watanabe_shouta/2024_graduation_thesis/picture/speed.eps" 1738559383 16638 e29092a75686c3a7d3eeef68c3fe47d2 ""
   "/Users/watanabe_shouta/2024_graduation_thesis/picture/swim.png" 1738559241 2074394 ca50b17a0e7dbf27aa5e9236084cd65e ""
+  "/Users/watanabe_shouta/2024_graduation_thesis/picture/waiyakudou.eps" 1738574772 3574141 ac6aad8c5b5b00f0c09930895abe92e8 ""
   "/Users/watanabe_shouta/2024_graduation_thesis/picture/zakutu1.png" 1738558066 232550 b171076ec523525fbb8f3964998326f7 ""
   "/Users/watanabe_shouta/2024_graduation_thesis/picture/zakutu2.png" 1738558066 165011 7806047987726b7b1c4195938e23a4e7 ""
   "/Users/watanabe_shouta/2024_graduation_thesis/picture/zenrarobot.jpg" 1738546785 17239 b370c234445043ff507eab8bf195019c ""
@@ -78,23 +79,23 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1712804287 41663 c82a74d8036de408d74af2c8ae75c7e5 ""
   "c:/texlive/2024/texmf-var/web2c/euptex/platex.fmt" 1712808368 8157869 fda07e08e2e413ddff5a548426ed34e1 ""
   "c:/texlive/2024/texmf.cnf" 1712808154 713 e69b156964470283e0530f5060668171 ""
-  "chapters/abstract.aux" 1738563472 625 3bc9db8f67f68df09af34162bb420974 "latex"
+  "chapters/abstract.aux" 1738575111 625 3bc9db8f67f68df09af34162bb420974 "latex"
   "chapters/abstract.tex" 1738474901 4772 ea5e0374bedf67efc722ef58e7cd7e52 ""
-  "chapters/acknowledgement.aux" 1738563478 726 c962754946be920a2a6cf52d63438534 "latex"
+  "chapters/acknowledgement.aux" 1738575117 726 2d3c7976e76dd692f565d5f6379a581d "latex"
   "chapters/acknowledgement.tex" 1738456229 25 537f27a5789ce10b4bcfb4b27493d812 ""
-  "chapters/bibliography.aux" 1738563478 681 4a4752baec75ff9e97d23e7fe1d2cf6a "latex"
-  "chapters/bibliography.tex" 1738477584 869 e19941ef0065036011d8b863d8c12123 ""
-  "chapters/conclusion.aux" 1738563478 721 ef7a06443d17740b110fbcaaaa96591f "latex"
+  "chapters/bibliography.aux" 1738575117 786 445e6affd7dc51c521e4ebbce1cd79e5 "latex"
+  "chapters/bibliography.tex" 1738564968 2409 f106c2552f602d4d739ef12e0d51e08d ""
+  "chapters/conclusion.aux" 1738575117 721 8d2590039fdf809dfbc868354995f50d "latex"
   "chapters/conclusion.tex" 1738456229 27 cbef7ceb7c8f51eb2444f437cd745173 ""
-  "chapters/introduction.aux" 1738563472 768 df1a31f37a5d3fd46855df27330ddb3e "latex"
-  "chapters/introduction.tex" 1738479624 3570 83430020f5297f639e2deda7a1c83bcf ""
-  "chapters/sec2.aux" 1738563478 3600 5214110bfbc918e76a234323e9de37a4 "latex"
-  "chapters/sec2.tex" 1738561923 9180 d11ccb5f9f077b31d8cf21773858f62a ""
-  "chapters/sec3.aux" 1738563478 862 82a329fd3f4e9968ec9ebacf2919a7dc "latex"
-  "chapters/sec3.tex" 1738563463 776 b6e959c6271ed4a38326667cf2b4777b ""
-  "main.aux" 1738563478 259 0cb0cc56f2b15dded3b59cf29cbfca83 "latex"
+  "chapters/introduction.aux" 1738575111 861 5021f75e7b56de2e03533c057066edd8 "latex"
+  "chapters/introduction.tex" 1738564968 3633 06b55041c3d402228d114c3db660e15f ""
+  "chapters/sec2.aux" 1738575117 3936 9acae9c3a8c76ef5c2b124c4bd35ce94 "latex"
+  "chapters/sec2.tex" 1738564968 9260 0107f1254112d7bc89cd8acc39ec2b1b ""
+  "chapters/sec3.aux" 1738575117 1140 a9d5df5d1dce23dbb0bed1f385b4aab5 "latex"
+  "chapters/sec3.tex" 1738575102 1542 dd4bd621d1edf70b0a9a5fa3bb673589 ""
+  "main.aux" 1738575117 259 0cb0cc56f2b15dded3b59cf29cbfca83 "latex"
   "main.tex" 1738562112 1726 bb27a47318c313c514d812c3c8f18f43 ""
-  "main.toc" 1738563478 1035 a5c76666cdab5d82ea161f1b10773e90 "latex"
+  "main.toc" 1738575117 1099 4f2e7a8f417e5e564bce0cfab23775ad "latex"
   "sty/fancyheadings.sty" 1738456229 9675 47af575c2e504ea5692438025685e8e7 ""
   "sty/sotsuron2009.sty" 1738456229 743 e2bc60698e90a1cbb34c6540ade6c314 ""
   (generated)
