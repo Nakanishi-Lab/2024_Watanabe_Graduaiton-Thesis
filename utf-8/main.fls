@@ -201,6 +201,26 @@ INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/waiyakudou.eps
 INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/waiyakudou.eps
 INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/waiyakudou.eps
 INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/waiyakudou.eps
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/sisaku.jpg
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/sisaku.jpg
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/sisaku.jpg
+INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/sisaku.jpg
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/tentativeschematic.png
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/tentativeschematic.png
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/tentativeschematic.png
+INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/tentativeschematic.png
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/ring.jpg
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/ring.jpg
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/ring.jpg
+INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/ring.jpg
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/jikkilink.png
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/jikkilink.png
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/jikkilink.png
+INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/jikkilink.png
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/sisakuoyogu2.png
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/sisakuoyogu2.png
+INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/sisakuoyogu2.png
+INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/sisakuoyogu2.png
 INPUT ./chapters/conclusion.tex
 INPUT ./chapters/conclusion.tex
 OUTPUT chapters/conclusion.aux

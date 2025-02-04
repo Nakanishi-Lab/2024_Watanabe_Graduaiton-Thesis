@@ -12,5 +12,10 @@
 \contentsline {section}{\numberline {3}ワイヤ駆動式魚ロボットの開発}{6}{}%
 \contentsline {subsection}{\numberline {3.1}本研究の目的}{6}{}%
 \contentsline {subsection}{\numberline {3.2}動作原理}{6}{}%
-\contentsline {section}{\numberline {4}結言}{7}{}%
-\contentsline {section}{\numberline {5}謝辞}{8}{}%
+\contentsline {subsection}{\numberline {3.3}試作機}{6}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}試作機の作製・動作}{6}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}試作機から得られた知見}{8}{}%
+\contentsline {subsection}{\numberline {3.4}ワイヤ駆動式柔軟外皮装着型魚ロボットの開発}{8}{}%
+\contentsline {subsubsection}{\numberline {3.4.1}頭部}{8}{}%
+\contentsline {section}{\numberline {4}結言}{9}{}%
+\contentsline {section}{\numberline {5}謝辞}{10}{}%
