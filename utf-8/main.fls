@@ -147,80 +147,88 @@ INPUT ./chapters/sec2.tex
 INPUT chapters/sec2.tex
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/zakutu1.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/zakutu1.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/zakutu1.png
-INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/zakutu1.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/zakutu2.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/zakutu2.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/zakutu2.png
-INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/zakutu2.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/zenrarobot.jpg
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/zenrarobot.jpg
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/zenrarobot.jpg
-INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/zenrarobot.jpg
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/fishrobot.jpg
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/fishrobot.jpg
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/fishrobot.jpg
-INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/fishrobot.jpg
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/mosikizu.jpg
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/mosikizu.jpg
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/mosikizu.jpg
-INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/mosikizu.jpg
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/link.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/link.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/link.png
-INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/link.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/swim.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/swim.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/swim.png
-INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/swim.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/speed.eps
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/speed.eps
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/speed.eps
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/speed.eps
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/aka.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/aka.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/aka.png
-INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/aka.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/siro_naka.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/siro_naka.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/siro_naka.png
-INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/siro_naka.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/siro_obire.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/siro_obire.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/siro_obire.png
-INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/siro_obire.png
+INPUT ./chapters/picture/zakutu1.png
+INPUT ./chapters/picture/zakutu1.png
+INPUT ./chapters/picture/zakutu1.png
+INPUT extractbb -B cropbox -O chapters/picture/zakutu1.png
+INPUT ./chapters/picture/zakutu2.png
+INPUT ./chapters/picture/zakutu2.png
+INPUT ./chapters/picture/zakutu2.png
+INPUT extractbb -B cropbox -O chapters/picture/zakutu2.png
+INPUT ./chapters/picture/zenrarobot.jpg
+INPUT ./chapters/picture/zenrarobot.jpg
+INPUT ./chapters/picture/zenrarobot.jpg
+INPUT extractbb -B cropbox -O chapters/picture/zenrarobot.jpg
+INPUT ./chapters/picture/fishrobot.jpg
+INPUT ./chapters/picture/fishrobot.jpg
+INPUT ./chapters/picture/fishrobot.jpg
+INPUT extractbb -B cropbox -O chapters/picture/fishrobot.jpg
+INPUT ./chapters/picture/mosikizu.jpg
+INPUT ./chapters/picture/mosikizu.jpg
+INPUT ./chapters/picture/mosikizu.jpg
+INPUT extractbb -B cropbox -O chapters/picture/mosikizu.jpg
+INPUT ./chapters/picture/link.png
+INPUT ./chapters/picture/link.png
+INPUT ./chapters/picture/link.png
+INPUT extractbb -B cropbox -O chapters/picture/link.png
+INPUT ./chapters/picture/swim.png
+INPUT ./chapters/picture/swim.png
+INPUT ./chapters/picture/swim.png
+INPUT extractbb -B cropbox -O chapters/picture/swim.png
+INPUT ./chapters/picture/speed.eps
+INPUT ./chapters/picture/speed.eps
+INPUT ./chapters/picture/speed.eps
+INPUT chapters/picture/speed.eps
+INPUT ./chapters/picture/aka.png
+INPUT ./chapters/picture/aka.png
+INPUT ./chapters/picture/aka.png
+INPUT extractbb -B cropbox -O chapters/picture/aka.png
+INPUT ./chapters/picture/siro_naka.png
+INPUT ./chapters/picture/siro_naka.png
+INPUT ./chapters/picture/siro_naka.png
+INPUT extractbb -B cropbox -O chapters/picture/siro_naka.png
+INPUT ./chapters/picture/siro_obire.png
+INPUT ./chapters/picture/siro_obire.png
+INPUT ./chapters/picture/siro_obire.png
+INPUT extractbb -B cropbox -O chapters/picture/siro_obire.png
 INPUT ./chapters/sec3.tex
 INPUT ./chapters/sec3.tex
 OUTPUT chapters/sec3.aux
 INPUT ./chapters/sec3.tex
 INPUT ./chapters/sec3.tex
 INPUT chapters/sec3.tex
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/waiyakudou.eps
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/waiyakudou.eps
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/waiyakudou.eps
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/waiyakudou.eps
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/sisaku.jpg
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/sisaku.jpg
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/sisaku.jpg
-INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/sisaku.jpg
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/tentativeschematic.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/tentativeschematic.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/tentativeschematic.png
-INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/tentativeschematic.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/ring.jpg
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/ring.jpg
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/ring.jpg
-INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/ring.jpg
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/jikkilink.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/jikkilink.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/jikkilink.png
-INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/jikkilink.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/sisakuoyogu2.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/sisakuoyogu2.png
-INPUT /Users/watanabe_shouta/2024_graduation_thesis/picture/sisakuoyogu2.png
-INPUT extractbb -B cropbox -O /Users/watanabe_shouta/2024_graduation_thesis/picture/sisakuoyogu2.png
+INPUT ./chapters/picture/waiyakudou.eps
+INPUT ./chapters/picture/waiyakudou.eps
+INPUT ./chapters/picture/waiyakudou.eps
+INPUT chapters/picture/waiyakudou.eps
+INPUT ./chapters/picture/sisaku.jpg
+INPUT ./chapters/picture/sisaku.jpg
+INPUT ./chapters/picture/sisaku.jpg
+INPUT extractbb -B cropbox -O chapters/picture/sisaku.jpg
+INPUT ./chapters/picture/tentativeschematic.png
+INPUT ./chapters/picture/tentativeschematic.png
+INPUT ./chapters/picture/tentativeschematic.png
+INPUT extractbb -B cropbox -O chapters/picture/tentativeschematic.png
+INPUT ./chapters/picture/ring.jpg
+INPUT ./chapters/picture/ring.jpg
+INPUT ./chapters/picture/ring.jpg
+INPUT extractbb -B cropbox -O chapters/picture/ring.jpg
+INPUT ./chapters/picture/jikkilink.png
+INPUT ./chapters/picture/jikkilink.png
+INPUT ./chapters/picture/jikkilink.png
+INPUT extractbb -B cropbox -O chapters/picture/jikkilink.png
+INPUT ./chapters/picture/sisakuoyogu2.png
+INPUT ./chapters/picture/sisakuoyogu2.png
+INPUT ./chapters/picture/sisakuoyogu2.png
+INPUT extractbb -B cropbox -O chapters/picture/sisakuoyogu2.png
+INPUT ./chapters/picture/withskin.jpg
+INPUT ./chapters/picture/withskin.jpg
+INPUT ./chapters/picture/withskin.jpg
+INPUT extractbb -B cropbox -O chapters/picture/withskin.jpg
+INPUT ./chapters/picture/fish.png
+INPUT ./chapters/picture/fish.png
+INPUT ./chapters/picture/fish.png
+INPUT extractbb -B cropbox -O chapters/picture/fish.png
 INPUT ./chapters/conclusion.tex
 INPUT ./chapters/conclusion.tex
 OUTPUT chapters/conclusion.aux
