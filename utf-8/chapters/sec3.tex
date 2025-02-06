@@ -58,34 +58,34 @@
 \end{figure}
 
 \subsubsection{防水テスト・遊泳テスト}
-機体完成後，防水テストと遊泳テストを行った．まず防水テストは水没すると赤くなるシールを頭部内部に貼り，水深120 mmの水槽で2 分間沈める防水テストを7回行った．
+機体完成後，防水テストと遊泳テストを行った．まず防水テストは水没すると赤くなるシールを頭部内部に貼り，水深120 mmの水槽で2 分間沈める防水テストを7回行った．それぞれねじの締め具合や
+頭部の歪みを直しながらテストをしたが，完全な防水はできず，7回目で頭部下方のみの浸水にとどまったのでこれで防水できていると判断した（図\ref{fig:bousuitest_sisaku}）．
+次に遊泳テストを行った．遊泳テストの様子を図\ref{fig:test_sisaku}に示す．
 
-\begin{figure}[t]
-    \centering
-    \setPicture{sisakuoyogu2.png}
-    \caption{遊泳テストの様子}
-    \label{fig:test_sisaku}
-\end{figure}
 \begin{figure}[t]
     \centering
     \includegraphics[width=0.80\linewidth]{chapters/picture/bousuitest.png}
     \caption{頭部下方浸水のようす}
     \label{fig:bousuitest_sisaku}
 \end{figure}
+\begin{figure}[t]
+    \centering
+    \setPicture{sisakuoyogu2.png}
+    \caption{遊泳テストの様子}
+    \label{fig:test_sisaku}
+\end{figure}
 
 \subsubsection{試作機から得られた知見}
-試作機の作製・動作確認を通して得られたこととして，まず頭部をネジとOリングを用いて防水する方法は限度があることが分かった．試作機には防水箇所確認のため水没すると
-赤くなるシールを貼っており，推進120 mmの水槽で2 分間沈める防水実験を7回行った．しかし，ネジの締め方や締め具合を何度か調整しても図のように頭部下方は赤くなる，
-つまり浸水してしまい，完全な防水機能を有することはできていなかった．また，頭部を固定するネジが多いと，バッテリー交換がしにくく，メンテナンス性が
-悪くなるということも分かった．以上のことから防水方法を変更し，メンテナンス性を向上させた頭部に改良することが必要だとわかった．
+試作機の作製・動作確認を通して得られた知見として，まず，頭部をネジとOリングを用いて防水する方法は完全な防水に至らないと考えられる．また，頭部を固定するネジが多いと，バッテリー交換が
+しにくく，メンテナンス性が悪くなるということも分かった．以上のことから防水方法を変更し，メンテナンス性を向上させた頭部に改良することが必要だとわかった．
 
 \newpage
 
 \subsection{ワイヤ駆動式柔軟外皮装着型魚ロボットの開発}
 ここからは本研究で開発した機体について述べる．
-図\ref{fig:gaikan}に開発した機体の外観を，図\ref{fig:kouzou}に構造を示す．開発した魚ロボットは体長470 mm，重量は重りを含めて710 gである．ロボットの外形は
-先行研究において作製されたアジのモデルデータをもとに作製し，サイズは2倍とした．本機体は頭部・胴体部・外皮の3つからなり，頭部と胴体部をそれぞれ別の柔軟外皮で包む
-構造になっている．また，頭部は防水区画とし，胴体部は水中姿勢を水平にするために浸水させた．
+図\ref{fig:fishrobo_with}に開発した機体の外観を，図\ref{fig:kouzou}に構造を示す．開発した魚ロボットは体長470 mm，重量は重り（25 g）を含めて710 gである．ロボットの外形は
+昨年度卒業研究においてアジのスキャンデータ（図\ref{fig:data_scan}）から作製したモデルデータ（図\ref{fig:data_model}）をもとに作製し，サイズは2倍とした．本機体は頭部・胴体
+部・外皮の3つからなり，頭部と胴体部をそれぞれ別の柔軟外皮で包む構造になっている．また，頭部は防水区画とし，胴体部は水中姿勢を水平にするために浸水させた．
 
 \begin{figure}[htbp]
     \centering  
@@ -95,12 +95,12 @@
         \subcaption{外皮あり}
         \label{fig:fishrobo_with}
     \end{subfigure}
-    \begin{subfigure}[b]{0.9\linewidth}
-        \centering
-        \includegraphics[width=0.9\linewidth]{chapters/picture/skinless.jpg}
-        \subcaption{外皮なし}
-        \label{fig:fishrobo_less}
-    \end{subfigure}
+    % \begin{subfigure}[b]{0.9\linewidth}
+    %     \centering
+    %     \includegraphics[width=0.9\linewidth]{chapters/picture/skinless.jpg}
+    %     \subcaption{外皮なし}
+    %     \label{fig:fishrobo_less}
+    % \end{subfigure}
     \begin{subfigure}[b]{0.9\linewidth}
         \centering
         \includegraphics[width=0.9\linewidth]{chapters/picture/fish.png}
@@ -110,13 +110,28 @@
     \caption{開発したロボット}
     \label{fig:gaikan}
 \end{figure}
+\begin{figure}[b]
+    \centering
+    \begin{minipage}[b]{0.4\linewidth}
+        \centering
+        \setPicture{skyan.png}
+        \caption{アジのスキャンデータ}
+        \label{fig:data_scan}
+    \end{minipage}
+    \hspace{0.05\linewidth}
+    \begin{minipage}[b]{0.4\linewidth}
+        \centering
+        \setPicture{fishkinji.png}
+        \caption{アジのモデルデータ}
+        \label{fig:data_model}
+    \end{minipage}
+\end{figure}
 
 \subsubsection{頭部}
-頭部は光造形方式の3Dプリンタで作製しており，胴体前部と一体となっている．内部にはバッテリーと制御回路を搭載しており，使用するバッテリー，マイコン共に試作機から変更はしていない．バッテリーとマイコンを
-搭載する都合上頭部を防水する必要があり，試作機から得た知見をもとに今回はOリングによる防水ではなく，シリコン製の外皮を用いて防水を行った．
-
-防水方法としてはシリコン製の外皮を頭部にかぶせ，根元を防水リングによって締め付けることで防水を行う（図\ref{fig:bousui}）．防水リングのサイズはをもとに締め付ける部分が短径，長径ともに10％つぶ
-せるように設計した．また，試作機と同様に防水実験を1回行ったが，内部に貼ったシールはどれも赤く染まらず，完全な防水ができた（図\ref{fig:bousui_test}）．
+頭部は光造形方式の3Dプリンタで作製しており，胴体前部と一体となっている．内部にはバッテリーと制御回路を搭載しており，使用するバッテリー，マイコン共に試作機と同じものを用いた．バッテリーと
+マイコンを搭載する都合上頭部を防水する必要があり，試作機から得た知見をもとに今回はOリングによる防水ではなく，シリコン製の外皮を用いて防水を行った．
+防水方法としてはシリコン製の外皮を頭部にかぶせ，根元を防水リングによって締め付けることで防水を行った（図\ref{fig:bousui}）．防水リングのサイズは\cite{juuiti}を参考に締め付ける部分が
+短径，長径ともに10％つぶせるように設計した．また，試作機と同様に防水実験を1回行ったが，内部に貼ったシールはどれも赤く染まらず，完全な防水ができた（図\ref{fig:bousui_test}）．
 
 \begin{figure}[htpb]
     \centering
@@ -204,11 +219,91 @@
 \subsubsection{胴体部}
 胴体部は細かく分けて駆動部，弾性体部，尾びれ部で構成されている．
 駆動部は頭部と一体化しており，試作機と同じサーボモータを配置し，プーリー（PLA樹脂）を取り付けている．また，サーボモータの信号線を制御回路側につなげるために防水キャプコン
-（オーム電機，OA-WS04M-20/25）を配置し，さらに電源スイッチも配置している．また，駆動部にはカバーをかぶせ魚らしい形状になるようにしている．
-
-
+（オーム電機，OA-WS04M-20/25）を配置し，さらに電源スイッチも配置している（図\ref{fig:kudou}）．また，駆動部には図\ref{fig:cover}のようなカバーをかぶせ魚らしい形状になるようにしている．
 
 弾性体部は弾性体（ポリプロピレン板，厚さ0.75 mm）と骨格リンク（PLA樹脂），ワイヤ（ポリエステル製，0.40 mm）で構成している．骨格リンクは厚みを6mmで作製し，14 mm間隔を空
-けながら配置した．リンクには図のようにワイヤを通すために2 mmの穴を4 カ所開けており，さらに胴体内部を浸水させるために大きめの穴を6 個開けている．また，リンクと弾性体は
-ネジを用いて二点止めし，外皮の動きがリンクの固定状態に影響を与えないようにした．
+けながら配置した．リンクには図のようにワイヤを通すために2 mmの穴を4 カ所開けており，さらに胴体内部を浸水させるために大きめの穴を6 個開けている（図\ref{fig:link2}）．また，リンクと弾性体は
+ネジを用いて二点止めし，外皮の動きがリンクの固定状態に影響を与えないようにした（図\ref{fig:real_link}）．
 
+尾びれ部は図\ref{fig:obire}のように尾びれ本体（ポリスチレン製薄板，厚さ0.3 mm）と骨格リンクの一部で構成している．尾びれに関しては先行研究より推進性能が高いと示された材料と厚みを使用して
+おり，形状に関してはアジの3Dスキャンデータからサイズを決定した．骨格リンクは尾びれを固定するための固定部を設け，尾びれが折れないようにTPU樹脂で作製し，根元を三角形状にすることで折り目がつ
+かないようにした．
+
+\begin{figure}[t]
+    \centering
+    \begin{minipage}[b]{0.35\linewidth}
+        \centering
+        \setPicture{kudou.png}
+        \caption{駆動部のようす}
+        \label{fig:kudou}
+    \end{minipage}
+    \hspace{0.1\linewidth}
+    \begin{minipage}[b]{0.35\linewidth}
+        \centering
+        \setPicture{cover.jpg}
+        \caption{駆動部カバー}
+        \label{fig:cover}
+    \end{minipage}
+\end{figure}
+\begin{figure}[t]
+    \centering
+    \begin{minipage}[b]{0.35\linewidth}
+        \centering
+        \setPicture{link2.png}
+        \caption{骨格リンクについて}
+        \label{fig:link2}
+    \end{minipage}
+    \hspace{0.1\linewidth}
+    \begin{minipage}[b]{0.35\linewidth}
+        \centering
+        \setPicture{link_danseita.jpg}
+        \caption{実際の弾性体部}
+        \label{fig:real_link}
+    \end{minipage}
+\end{figure}
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.6\linewidth]{chapters/picture/obire.jpg}
+    \caption{尾びれ部}
+    \label{fig:obire}
+\end{figure}
+
+\subsubsection{外皮}
+柔軟外皮は頭部と胴体部用に二つ作製した．今回は外皮を作製するため鋳造のように型にシリコンを流し入れることによって外皮の作成を行った．図\ref{fig:katanaka}に作製・使用した型
+と中子をそれぞれ示す．ここで中子とは鋳造において中空部を作るために使われているもので, 型の間にはめ込んで使用する．この制作方法において外皮の外寸サイズを決定するのは型に作る
+くぼみ，内寸サイズを決定するのは中子となる．したがってここから型のくぼみのサイズを外皮の外寸，中子のサイズを外皮の内寸と呼ぶ．
+
+まず頭部用の外皮について，外皮の内寸は外皮と頭部が密着するようにアジの3Dモデルの頭部のサイズをそのまま使用した．外寸については体高方向に2 mm，体幅方向に3 mmの厚みになるよう
+にアジのモデルデータの頭部をx軸方向に1.15 倍，y軸方向に1.09 倍，z軸方向に1.07 倍したサイズを使用した．
+
+次に胴体部の外皮ついて述べる．リンクの動きに外皮を追従させるために外皮内部に骨格リンクをはめ込めるような溝を作製し，しわができないように外皮の内寸をロボットの胴体サイズの90 ％
+のサイズで作製した．溝の間隔もロボット胴体サイズの90 ％になるようにリンク間距離14 mmの90 ％の長さにあたる12.6 mm間隔で作製した．溝の深さは骨格リンクに通すワイヤに干渉しないかつ溝か
+ら外れないように5 mmで設計した．
+図\ref{fig:gaihi}に作製した外皮を示す．
+
+\begin{figure}[hb]
+    \centering
+    \begin{tabular}{cc}
+        \begin{minipage}[b]{0.43\linewidth}
+            \centering
+            \setPicture{atata.jpg}
+            \subcaption{頭部外皮用の型と中子}
+            \label{fig:atata} 
+        \end{minipage}
+        \hspace{0.05\linewidth}
+        \begin{minipage}[b]{0.43\linewidth}
+            \centering
+            \setPicture{katata.jpg}
+            \subcaption{胴体外皮用の型と中子}
+            \label{fig:katata} 
+        \end{minipage}
+    \end{tabular}
+    \caption{作製した型と中子}
+    \label{fig:katanaka}
+\end{figure}
+\begin{figure}[b]
+    \centering
+    \includegraphics[width=0.6\linewidth]{chapters/picture/gaihi.jpg}
+    \caption{作製した外皮}
+    \label{fig:gaihi}
+\end{figure}
