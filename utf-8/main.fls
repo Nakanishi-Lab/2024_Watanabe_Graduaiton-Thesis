@@ -247,14 +247,14 @@ INPUT ./chapters/picture/fish.png
 INPUT ./chapters/picture/fish.png
 INPUT ./chapters/picture/fish.png
 INPUT extractbb -B cropbox -O chapters/picture/fish.png
-INPUT ./chapters/picture/skyan.png
-INPUT ./chapters/picture/skyan.png
-INPUT ./chapters/picture/skyan.png
-INPUT extractbb -B cropbox -O chapters/picture/skyan.png
-INPUT ./chapters/picture/fishkinji.png
-INPUT ./chapters/picture/fishkinji.png
-INPUT ./chapters/picture/fishkinji.png
-INPUT extractbb -B cropbox -O chapters/picture/fishkinji.png
+INPUT ./chapters/picture/scan.png
+INPUT ./chapters/picture/scan.png
+INPUT ./chapters/picture/scan.png
+INPUT extractbb -B cropbox -O chapters/picture/scan.png
+INPUT ./chapters/picture/fishkinji2.png
+INPUT ./chapters/picture/fishkinji2.png
+INPUT ./chapters/picture/fishkinji2.png
+INPUT extractbb -B cropbox -O chapters/picture/fishkinji2.png
 INPUT ./chapters/picture/bousui.pdf
 INPUT ./chapters/picture/bousui.pdf
 INPUT ./chapters/picture/bousui.pdf
@@ -341,6 +341,37 @@ INPUT ./chapters/picture/obire_amp.png
 INPUT ./chapters/picture/obire_amp.png
 INPUT ./chapters/picture/obire_amp.png
 INPUT extractbb -B cropbox -O chapters/picture/obire_amp.png
+INPUT ./chapters/picture/test.png
+INPUT ./chapters/picture/test.png
+INPUT ./chapters/picture/test.png
+INPUT extractbb -B cropbox -O chapters/picture/test.png
+INPUT ./chapters/picture/test2.png
+INPUT ./chapters/picture/test2.png
+INPUT ./chapters/picture/test2.png
+INPUT extractbb -B cropbox -O chapters/picture/test2.png
+INPUT ./chapters/picture/an90.eps
+INPUT ./chapters/picture/an90.eps
+INPUT ./chapters/picture/an90.eps
+INPUT chapters/picture/an90.eps
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
+INPUT ./chapters/picture/an135.eps
+INPUT ./chapters/picture/an135.eps
+INPUT ./chapters/picture/an135.eps
+INPUT chapters/picture/an135.eps
+INPUT ./chapters/picture/an180.eps
+INPUT ./chapters/picture/an180.eps
+INPUT ./chapters/picture/an180.eps
+INPUT chapters/picture/an180.eps
 INPUT ./chapters/conclusion.tex
 INPUT ./chapters/conclusion.tex
 OUTPUT chapters/conclusion.aux

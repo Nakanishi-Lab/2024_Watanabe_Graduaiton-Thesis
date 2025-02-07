@@ -36,7 +36,51 @@
 を二次近似し,積分して遊泳距離を算出し，遊泳時間で除算して遊泳速度を算出する．直進遊泳開始時に過渡状態となることを踏まえ，トラッキング範囲を遊泳を開始してから500～1500 mmの範囲に設定した．
 
 \subsection{実験結果}
-図に振幅，周波数の時の遊泳実験の様子を，図に実験結果を示す．図のエラーバーは算出した標準偏差を示している．遊泳実験では，すべてのパラメータで直進させたかったが，何回か進行方向が右に傾いたり左
-に傾いたりしてしまう時があった．図から，まず外皮あり・なし両方に共通して周波数が高くなるほど
+図\ref{fig:test_swim}に振幅$168\:^\circ$，周波数1.75 Hzの時の遊泳実験の様子を，図\ref{fig:amp}に実験結果を示す．図のエラーバーは算出した標準偏差を示している．遊泳実験では，すべてのパラ
+メータで図のように直進させたかったが，図のように何回か進行方向が右に傾いたり左に傾いたりしてしまう時があった．図から，まず外皮あり・なし両方に共通して周波数が高くなるほど遊泳速度が速くなっていることがわかる．また，すべての
+実験において外皮装着状態の方が未装着時よりも遊泳速度が速くなっている．さらに尾びれ振幅が大きくなるにつれて外皮装着時と未装着時における速度差が大きくなることも分かった．
+また，今回の実験において最高速度は振幅$168\:^\circ$，周波数1.75 Hz時の278.2 mm/sであった．
+
+\begin{figure}[hb]
+   \centering  
+   \begin{subfigure}[b]{1\linewidth}
+       \centering
+       \setPicture{test.png}
+       \subcaption{直進した時}
+       \label{fig:str}
+   \end{subfigure}
+   \begin{subfigure}[b]{1\linewidth}
+       \centering
+       \setPicture{test2.png}
+       \subcaption{右方向に傾いたとき}
+       \label{fig:right}
+   \end{subfigure}
+   \caption{振幅$168\:^\circ$，周波数1.75 Hzの時の遊泳実験の様子}
+   \label{fig:test_swim}
+\end{figure}
+
+\begin{figure}[t]
+   \centering  
+   \begin{subfigure}[b]{0.6\linewidth}
+       \centering
+       \includegraphics[width=0.9\linewidth]{chapters/picture/an90.eps}
+       \subcaption{尾びれ振幅$81\:^\circ$の場合}
+       \label{fig:an90}
+   \end{subfigure}
+   \begin{subfigure}[b]{0.6\linewidth}
+       \centering
+       \includegraphics[width=0.9\linewidth]{chapters/picture/an135.eps}
+       \subcaption{尾びれ振幅$114\:^\circ$の場合}
+       \label{fig:an135}
+   \end{subfigure}
+   \begin{subfigure}[b]{0.6\linewidth}
+       \centering
+       \includegraphics[width=0.9\linewidth]{chapters/picture/an180.eps}
+       \subcaption{尾びれ振幅$168\:^\circ$の場合}
+       \label{fig:an180}
+   \end{subfigure}
+   \caption{遊泳速度，尾びれ振幅および尾びれ周波数の関係}
+   \label{fig:amp}
+\end{figure}
 
 

@@ -34,14 +34,14 @@
     \centering
     \begin{minipage}[b]{0.4\linewidth}
         \centering
-        \setPicture{skyan.png}
+        \setPicture{scan.png}
         \caption{アジのスキャンデータ}
         \label{fig:data_scan}
     \end{minipage}
     \hspace{0.05\linewidth}
     \begin{minipage}[b]{0.4\linewidth}
         \centering
-        \setPicture{fishkinji.png}
+        \setPicture{fishkinji2.png}
         \caption{アジのモデルデータ}
         \label{fig:data_model}
     \end{minipage}
@@ -145,11 +145,6 @@
 弾性体部は弾性体（ポリプロピレン板，厚さ0.75 mm）と骨格リンク（PLA樹脂），ワイヤ（ポリエステル製，0.40 mm）で構成している．骨格リンクは厚みを6mmで作製し，14 mm間隔を空
 けながら配置した．リンクには図のようにワイヤを通すために2 mmの穴を4 カ所開けており，さらに胴体内部を浸水させるために大きめの穴を6 個開けている（図\ref{fig:link2}）．また，リンクと弾性体は
 ネジを用いて二点止めし，外皮の動きがリンクの固定状態に影響を与えないようにした（図\ref{fig:real_link}）．
-
-尾びれ部は図\ref{fig:obire}のように尾びれ本体（ポリスチレン製薄板，厚さ0.3 mm）と骨格リンクの一部で構成している．尾びれに関しては先行研究\cite{ni}より推進性能が高いと示された材料と厚みを使用して
-おり，形状に関してはアジの3Dスキャンデータからサイズを決定した．骨格リンクは尾びれを固定するための固定部を設け，尾びれが折れないようにTPU樹脂で作製し，根元を三角形状にすることで折り目がつ
-かないようにした．また，尾びれにはトラッキング用のマーカー（PLA樹脂）を取り付けた．
-
 \begin{figure}[t]
     \centering
     \begin{minipage}[b]{0.35\linewidth}
@@ -184,10 +179,13 @@
 \end{figure}
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.6\linewidth]{chapters/picture/obire.jpg}
+    \includegraphics[width=0.5\linewidth]{chapters/picture/obire.jpg}
     \caption{尾びれ部}
     \label{fig:obire}
 \end{figure}
+尾びれ部は図\ref{fig:obire}のように尾びれ本体（ポリスチレン製薄板，厚さ0.3 mm）と骨格リンクの一部で構成している．尾びれに関しては先行研究\cite{ni}より推進性能が高いと示された材料と厚みを使用して
+おり，形状に関してはアジの3Dスキャンデータからサイズを決定した．骨格リンクは尾びれを固定するための固定部を設け，尾びれが折れないようにTPU樹脂で作製し，根元を三角形状にすることで折り目がつ
+かないようにした．また，尾びれにはトラッキング用のマーカー（PLA樹脂）を取り付けた．
 
 \subsection{外皮}
 柔軟外皮は頭部と胴体部用に二つ作製した．今回は外皮を作製するため鋳造のように型にシリコンを流し入れることによって外皮の作成を行った．図\ref{fig:katanaka}に作製・使用した型
@@ -205,14 +203,14 @@
 \begin{figure}[hb]
     \centering
     \begin{tabular}{cc}
-        \begin{minipage}[b]{0.43\linewidth}
+        \begin{minipage}[b]{0.38\linewidth}
             \centering
             \setPicture{atata.jpg}
             \subcaption{頭部外皮用の型と中子}
             \label{fig:atata} 
         \end{minipage}
         \hspace{0.05\linewidth}
-        \begin{minipage}[b]{0.43\linewidth}
+        \begin{minipage}[b]{0.38\linewidth}
             \centering
             \setPicture{katata.jpg}
             \subcaption{胴体外皮用の型と中子}
