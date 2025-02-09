@@ -9,19 +9,19 @@
 
 \begin{figure}[htbp]
     \centering  
-    \begin{subfigure}[b]{0.9\linewidth}
+    \begin{subfigure}[b]{0.8\linewidth}
         \centering
         \includegraphics[width=0.9\linewidth]{chapters/picture/withskin.jpg}
-        \subcaption{外皮あり}
+        \subcaption{外皮装着時}
         \label{fig:fishrobo_with}
     \end{subfigure}
-    % \begin{subfigure}[b]{0.9\linewidth}
-    %     \centering
-    %     \includegraphics[width=0.9\linewidth]{chapters/picture/skinless.jpg}
-    %     \subcaption{外皮なし}
-    %     \label{fig:fishrobo_less}
-    % \end{subfigure}
-    \begin{subfigure}[b]{0.9\linewidth}
+    \begin{subfigure}[b]{0.8\linewidth}
+        \centering
+        \includegraphics[width=0.9\linewidth]{chapters/picture/without_skin.jpg}
+        \subcaption{胴体外皮未装着時}
+        \label{fig:fishrobo_less}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.8\linewidth}
         \centering
         \includegraphics[width=0.9\linewidth]{chapters/picture/fish.png}
         \caption{開発したロボットの構造}
@@ -30,39 +30,45 @@
     \caption{開発したロボット}
     \label{fig:gaikan}
 \end{figure}
-\begin{figure}[b]
+
+\begin{figure}[t]
     \centering
-    \begin{minipage}[b]{0.4\linewidth}
-        \centering
-        \setPicture{scan.png}
-        \caption{アジのスキャンデータ}
-        \label{fig:data_scan}
-    \end{minipage}
-    \hspace{0.05\linewidth}
-    \begin{minipage}[b]{0.4\linewidth}
-        \centering
-        \setPicture{fishkinji2.png}
-        \caption{アジのモデルデータ}
-        \label{fig:data_model}
-    \end{minipage}
+    \includegraphics[width=0.7\linewidth]{chapters/picture/scan.png}
+    \caption{アジのスキャンデータ}
+    \label{fig:data_scan}
+\end{figure}
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.7\linewidth]{chapters/picture/fishkinji2.png}
+    \caption{アジのモデルデータ}
+    \label{fig:data_model}
 \end{figure}
 
 \subsection{頭部}
 頭部は光造形方式の3Dプリンタで作製しており，胴体前部と一体となっている．内部にはバッテリーと制御回路を搭載しており，使用するバッテリー，マイコン共に試作機と同じものを用いた．バッテリーと
 マイコンを搭載する都合上頭部を防水する必要があり，試作機から得た知見をもとに今回はOリングによる防水ではなく，シリコン製の外皮を用いて防水を行った．
 防水方法としてはシリコン製の外皮を頭部にかぶせ，根元を防水リングによって締め付けることで防水を行った（図\ref{fig:bousui}）．防水リングのサイズは\cite{juuiti}を参考に締め付ける部分が
-短径，長径ともに10％つぶせるように設計した．また，試作機と同様に防水実験を1回行ったが，内部に貼ったシールはどれも赤く染まらず，完全な防水ができた（図\ref{fig:bousui_test}）．
+短径，長径ともに10％つぶせるように設計した．
+また，試作機と同様に防水実験を1回行ったが，内部に貼ったシールはどれも赤く染まらず，完全な防水ができた（図\ref{fig:bousui_test}）．
+また，頭部は上部と下部のカバーが開くようになっており，メンテナンス性向上のためにねじ止めではなくワンタッチでカバーを開閉できるようにしている
+（図\ref{fig:head_open}，\ref{fig:rock}）．
+それに加えて制御回路とバッテリーを取り出しやすくするためにねじで固定するのではなく，図\ref{fig:toubu_kiban}，図\ref{fig:toubu_battery}のように溝にはめストッパーをつける
+ことで頭部に配置している．
 
-\begin{figure}[htpb]
+\subsection{胴体部}
+胴体部は細かく分けて駆動部，弾性体部，尾びれ部で構成されている．
+駆動部は頭部と一体化しており，試作機と同じサーボモータを配置し，プーリー（PLA樹脂）を取り付けている．昨年度卒業研究では頭部にサーボモータを配置していたが，今回は先行研究\cite{juu}で示さ
+れた胴体後半部のみ体をしならせ遊泳するアジ型遊泳の特徴に従い，胴体後半部のみを屈曲できるような位置にサーボモータを配置した．
+\begin{figure}[t]
     \centering
     \begin{tabular}{cc}
-        \begin{minipage}[b]{0.43\linewidth}
+        \begin{minipage}[b]{0.33\linewidth}
             \centering
             \setPicture{bousui.pdf}
             \subcaption{防水構造}
             \label{fig:bousui_kouzou} 
         \end{minipage}
-        \begin{minipage}[b]{0.43\linewidth}
+        \begin{minipage}[b]{0.33\linewidth}
             \centering
             \setPicture{jissai.jpg}
             \subcaption{実際の様子}
@@ -72,24 +78,24 @@
     \caption{頭部防水について}
     \label{fig:bousui}
 \end{figure}
-\begin{figure}[htbp]
+\begin{figure}[t]
     \centering
     \begin{tabular}{ccc}
-        \begin{minipage}[b]{0.31\linewidth}
+        \begin{minipage}[b]{0.25\linewidth}
             \centering
-            \setPicture{bousui_soku.jpg}
+            \includegraphics[width=0.7\linewidth]{chapters/picture/bousui_soku.jpg}
             \subcaption{頭部側面}
             \label{fig:toubu_soku}
         \end{minipage}
-        \begin{minipage}[b]{0.31\linewidth}
+        \begin{minipage}[b]{0.25\linewidth}
             \centering
             \includegraphics[width=0.8\linewidth]{chapters/picture/bousui_naka.jpg}
             \subcaption{頭部内側}
             \label{fig:toubu_uti}
         \end{minipage}
-        \begin{minipage}[b]{0.31\linewidth}
+        \begin{minipage}[b]{0.25\linewidth}
             \centering
-            \includegraphics[width=0.7\linewidth]{chapters/picture/bousui_sentou.jpg}
+            \includegraphics[width=0.6\linewidth]{chapters/picture/bousui_sentou.jpg}
             \subcaption{頭部先端}
             \label{fig:toubu_sentan}
         \end{minipage}
@@ -97,22 +103,15 @@
     \caption{防水実験後のシールの様子}
     \label{fig:bousui_test}
 \end{figure}
-
-\newpage
-また，頭部は上部と下部のカバーが開くようになっており，メンテナンス性向上のためにねじ止めではなくワンタッチでカバーを開閉できるようにしている
-（図\ref{fig:head_open}，\ref{fig:rock}）．
-それに加えて制御回路とバッテリーを取り出しやすくするためにねじで固定するのではなく，図\ref{fig:toubu_kiban}，図\ref{fig:toubu_battery}のように溝にはめストッパーをつける
-ことで頭部に配置している．
-
 \begin{figure}[t]
     \centering
     \begin{minipage}[b]{0.3\linewidth}
         \centering
-        \includegraphics[width=0.6\linewidth]{chapters/picture/open_head.jpg}
+        \includegraphics[width=0.4\linewidth]{chapters/picture/open_head.jpg}
         \caption{頭部開放時の様子}
         \label{fig:head_open}
     \end{minipage}
-    \begin{minipage}[b]{0.5\linewidth}
+    \begin{minipage}[b]{0.45\linewidth}
         \centering
         \setPicture{rock.png}
         \caption{ワンタッチロックの仕組み}
@@ -121,31 +120,32 @@
 \end{figure}
 \begin{figure}[t]
     \centering
-    \begin{minipage}[b]{0.4\linewidth}
+    \begin{minipage}[b]{0.30\linewidth}
         \centering
         \setPicture{toubu_kiban.png}
         \caption{基板固定方法}
         \label{fig:toubu_kiban}
     \end{minipage}
-    \hspace{0.1\linewidth}
-    \begin{minipage}[b]{0.4\linewidth}
+    \hspace{0.05\linewidth}
+    \begin{minipage}[b]{0.30\linewidth}
         \centering
         \setPicture{toubu_battery.png}
         \caption{バッテリー固定方法}
         \label{fig:toubu_battery}
     \end{minipage}
 \end{figure}
-
-\subsection{胴体部}
-胴体部は細かく分けて駆動部，弾性体部，尾びれ部で構成されている．
-駆動部は頭部と一体化しており，試作機と同じサーボモータを配置し，プーリー（PLA樹脂）を取り付けている．昨年度卒業研究では頭部にサーボモータを配置していたが，今回は先行研究\cite{juu}で示さ
-れた胴体後半部のみ体をしならせ遊泳するアジ型遊泳の特徴に従い，胴体後半部のみを屈曲できるような位置にサーボモータを配置した．また，サーボモータの信号線を制御回路側につなげるために防水キャ
+また，サーボモータの信号線を制御回路側につなげるために防水キャ
 プコン（オーム電機，OA-WS04M-20/25）を配置し，さらに電源スイッチも配置している（図\ref{fig:kudou}）．また，駆動部には図\ref{fig:cover}のようなカバーをかぶせ魚らしい形状になるようにしている．
 
 弾性体部は弾性体（ポリプロピレン板，厚さ0.75 mm）と骨格リンク（PLA樹脂），ワイヤ（ポリエステル製，0.40 mm）で構成している．骨格リンクは厚みを6mmで作製し，14 mm間隔を空
 けながら配置した．リンクには図のようにワイヤを通すために2 mmの穴を4 カ所開けており，さらに胴体内部を浸水させるために大きめの穴を6 個開けている（図\ref{fig:link2}）．また，リンクと弾性体は
 ネジを用いて二点止めし，外皮の動きがリンクの固定状態に影響を与えないようにした（図\ref{fig:real_link}）．
-\begin{figure}[t]
+
+尾びれ部は図\ref{fig:obire}のように尾びれ本体（ポリスチレン製薄板，厚さ0.3 mm）と骨格リンクの一部で構成している．尾びれに関しては先行研究\cite{ni}より推進性能が高いと示された材料と厚みを使用して
+おり，形状に関してはアジの3Dスキャンデータからサイズを決定した．骨格リンクは尾びれを固定するための固定部を設け，尾びれが折れないようにTPU樹脂で作製し，根元を三角形状にすることで折り目がつ
+かないようにした．また，尾びれにはトラッキング用のマーカー（PLA樹脂）を取り付けた．
+
+\begin{figure}[hb]
     \centering
     \begin{minipage}[b]{0.35\linewidth}
         \centering
@@ -161,7 +161,7 @@
         \label{fig:cover}
     \end{minipage}
 \end{figure}
-\begin{figure}[t]
+\begin{figure}[b]
     \centering
     \begin{minipage}[b]{0.35\linewidth}
         \centering
@@ -183,9 +183,6 @@
     \caption{尾びれ部}
     \label{fig:obire}
 \end{figure}
-尾びれ部は図\ref{fig:obire}のように尾びれ本体（ポリスチレン製薄板，厚さ0.3 mm）と骨格リンクの一部で構成している．尾びれに関しては先行研究\cite{ni}より推進性能が高いと示された材料と厚みを使用して
-おり，形状に関してはアジの3Dスキャンデータからサイズを決定した．骨格リンクは尾びれを固定するための固定部を設け，尾びれが折れないようにTPU樹脂で作製し，根元を三角形状にすることで折り目がつ
-かないようにした．また，尾びれにはトラッキング用のマーカー（PLA樹脂）を取り付けた．
 
 \subsection{外皮}
 柔軟外皮は頭部と胴体部用に二つ作製した．今回は外皮を作製するため鋳造のように型にシリコンを流し入れることによって外皮の作成を行った．図\ref{fig:katanaka}に作製・使用した型
@@ -199,18 +196,18 @@
 のサイズで作製した．サイズを小さめに作製することにより常に外皮にテンションがかかり，しわが寄らないようになった．溝の間隔もロボット胴体サイズの90 ％になるようにリンク間距離14 mm
 の90 ％の長さにあたる12.6 mm間隔で作製した．溝の深さは骨格リンクに通すワイヤに干渉しないかつ溝から外れないように5 mmで設計した．
 図\ref{fig:gaihi}に作製した外皮を示す．
-
-\begin{figure}[hb]
+\newpage
+\begin{figure}[t]
     \centering
     \begin{tabular}{cc}
-        \begin{minipage}[b]{0.38\linewidth}
+        \begin{minipage}[b]{0.4\linewidth}
             \centering
             \setPicture{atata.jpg}
             \subcaption{頭部外皮用の型と中子}
             \label{fig:atata} 
         \end{minipage}
         \hspace{0.05\linewidth}
-        \begin{minipage}[b]{0.38\linewidth}
+        \begin{minipage}[b]{0.4\linewidth}
             \centering
             \setPicture{katata.jpg}
             \subcaption{胴体外皮用の型と中子}
@@ -220,9 +217,9 @@
     \caption{作製した型と中子}
     \label{fig:katanaka}
 \end{figure}
-\begin{figure}[b]
+\begin{figure}[ht]
     \centering
-    \includegraphics[width=0.6\linewidth]{chapters/picture/gaihi.jpg}
+    \includegraphics[width=0.8\linewidth]{chapters/picture/gaihi.jpg}
     \caption{作製した外皮}
     \label{fig:gaihi}
 \end{figure}

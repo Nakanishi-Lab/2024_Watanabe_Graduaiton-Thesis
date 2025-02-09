@@ -1,8 +1,8 @@
-PWD c:/Users/watanabe_shouta/2024_graduation_thesis/utf-8
+PWD c:/Users/suzum/2024_Watanabe_Graduaiton-Thesis-master/utf-8
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/euptex/platex.fmt
-INPUT c:/Users/watanabe_shouta/2024_graduation_thesis/utf-8/main.tex
+INPUT c:/Users/suzum/2024_Watanabe_Graduaiton-Thesis-master/utf-8/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2024/texmf-dist/tex/platex/base/jarticle.cls
 INPUT c:/texlive/2024/texmf-dist/tex/platex/base/jarticle.cls
@@ -243,6 +243,10 @@ INPUT ./chapters/picture/withskin.jpg
 INPUT ./chapters/picture/withskin.jpg
 INPUT ./chapters/picture/withskin.jpg
 INPUT extractbb -B cropbox -O chapters/picture/withskin.jpg
+INPUT ./chapters/picture/without_skin.jpg
+INPUT ./chapters/picture/without_skin.jpg
+INPUT ./chapters/picture/without_skin.jpg
+INPUT extractbb -B cropbox -O chapters/picture/without_skin.jpg
 INPUT ./chapters/picture/fish.png
 INPUT ./chapters/picture/fish.png
 INPUT ./chapters/picture/fish.png
@@ -329,10 +333,6 @@ OUTPUT chapters/sec5.aux
 INPUT ./chapters/sec5.tex
 INPUT ./chapters/sec5.tex
 INPUT chapters/sec5.tex
-INPUT ./chapters/picture/without_skin.jpg
-INPUT ./chapters/picture/without_skin.jpg
-INPUT ./chapters/picture/without_skin.jpg
-INPUT extractbb -B cropbox -O chapters/picture/without_skin.jpg
 INPUT ./chapters/picture/servo.png
 INPUT ./chapters/picture/servo.png
 INPUT ./chapters/picture/servo.png
