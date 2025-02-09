@@ -389,6 +389,18 @@ INPUT ./chapters/picture/gaihi_jama.png
 INPUT ./chapters/picture/gaihi_jama.png
 INPUT ./chapters/picture/gaihi_jama.png
 INPUT extractbb -B cropbox -O chapters/picture/gaihi_jama.png
+INPUT ./chapters/picture/teikou.png
+INPUT ./chapters/picture/teikou.png
+INPUT ./chapters/picture/teikou.png
+INPUT extractbb -B cropbox -O chapters/picture/teikou.png
+INPUT ./chapters/picture/compare_withoutskin.eps
+INPUT ./chapters/picture/compare_withoutskin.eps
+INPUT ./chapters/picture/compare_withoutskin.eps
+INPUT chapters/picture/compare_withoutskin.eps
+INPUT ./chapters/picture/compare_withskin.eps
+INPUT ./chapters/picture/compare_withskin.eps
+INPUT ./chapters/picture/compare_withskin.eps
+INPUT chapters/picture/compare_withskin.eps
 INPUT ./chapters/conclusion.tex
 INPUT ./chapters/conclusion.tex
 OUTPUT chapters/conclusion.aux

@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2025.2.5)  9 FEB 2025 14:56
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2025.2.5)  10 FEB 2025 00:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -512,12 +512,24 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
 
 
-])
+]
+File: chapters/picture/teikou.png Graphic file (type bmp)
+<chapters/picture/teikou.png>
+File: chapters/picture/compare_withoutskin.eps Graphic file (type eps)
+<chapters/picture/compare_withoutskin.eps>
+File: chapters/picture/compare_withskin.eps Graphic file (type eps)
+<chapters/picture/compare_withskin.eps>
+
 
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [20]
+ [20])
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [21]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex)
@@ -525,7 +537,7 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [21
+ [22
 
 
 
@@ -537,7 +549,7 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [22
+ [23
 
 
 
@@ -549,7 +561,7 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [23
+ [24
 
 
 
@@ -561,12 +573,12 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4442 strings out of 473863
- 81953 string characters out of 5734892
- 467142 words of memory out of 5000000
- 27537 multiletter control sequences out of 15000+600000
+ 4466 strings out of 473863
+ 82754 string characters out of 5734892
+ 467312 words of memory out of 5000000
+ 27558 multiletter control sequences out of 15000+600000
  576524 words of font info for 103 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  67i,14n,77p,334b,693s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (26 pages, 71896 bytes).
+Output written on main.dvi (27 pages, 76596 bytes).
