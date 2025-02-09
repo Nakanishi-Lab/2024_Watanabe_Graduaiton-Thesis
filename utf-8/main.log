@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2025.2.5)  9 FEB 2025 10:36
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2025.2.5)  9 FEB 2025 14:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -203,7 +203,7 @@ File: l3backend-dvips.def 2024-05-08 L3 backend support: dvips
 \g__pdf_backend_annotation_int=\count289
 \g__pdf_backend_link_int=\count290
 \g__pdf_backend_link_sf_int=\count291
-) (./main.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
+) (./main.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/sec_kousatu.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -496,6 +496,28 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [18]
+\openout2 = `chapters/sec_kousatu.aux'.
+
+ (./chapters/sec_kousatu.tex
+File: chapters/picture/gaihi_jama_nasi.png Graphic file (type bmp)
+<chapters/picture/gaihi_jama_nasi.png>
+File: chapters/picture/gaihi_jama.png Graphic file (type bmp)
+<chapters/picture/gaihi_jama.png>
+
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [19
+
+
+
+])
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [20]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex)
@@ -503,7 +525,7 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [19
+ [21
 
 
 
@@ -515,7 +537,7 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [20
+ [22
 
 
 
@@ -527,11 +549,11 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [21
+ [23
 
 
 
-] (./main.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
+] (./main.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/sec_kousatu.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2024-11-01> patch level 2
@@ -539,12 +561,12 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4395 strings out of 473863
- 80480 string characters out of 5734892
- 466615 words of memory out of 5000000
- 27499 multiletter control sequences out of 15000+600000
+ 4442 strings out of 473863
+ 81953 string characters out of 5734892
+ 467142 words of memory out of 5000000
+ 27537 multiletter control sequences out of 15000+600000
  576524 words of font info for 103 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  67i,14n,77p,334b,693s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (24 pages, 66120 bytes).
+Output written on main.dvi (26 pages, 71896 bytes).

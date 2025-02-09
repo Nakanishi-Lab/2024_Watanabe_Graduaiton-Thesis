@@ -88,6 +88,9 @@ INPUT chapters/sec4.aux
 INPUT ./chapters/sec5.aux
 INPUT ./chapters/sec5.aux
 INPUT chapters/sec5.aux
+INPUT ./chapters/sec_kousatu.aux
+INPUT ./chapters/sec_kousatu.aux
+INPUT chapters/sec_kousatu.aux
 INPUT ./chapters/conclusion.aux
 INPUT ./chapters/conclusion.aux
 INPUT chapters/conclusion.aux
@@ -372,6 +375,20 @@ INPUT ./chapters/picture/an180.eps
 INPUT ./chapters/picture/an180.eps
 INPUT ./chapters/picture/an180.eps
 INPUT chapters/picture/an180.eps
+INPUT ./chapters/sec_kousatu.tex
+INPUT ./chapters/sec_kousatu.tex
+OUTPUT chapters/sec_kousatu.aux
+INPUT ./chapters/sec_kousatu.tex
+INPUT ./chapters/sec_kousatu.tex
+INPUT chapters/sec_kousatu.tex
+INPUT ./chapters/picture/gaihi_jama_nasi.png
+INPUT ./chapters/picture/gaihi_jama_nasi.png
+INPUT ./chapters/picture/gaihi_jama_nasi.png
+INPUT extractbb -B cropbox -O chapters/picture/gaihi_jama_nasi.png
+INPUT ./chapters/picture/gaihi_jama.png
+INPUT ./chapters/picture/gaihi_jama.png
+INPUT ./chapters/picture/gaihi_jama.png
+INPUT extractbb -B cropbox -O chapters/picture/gaihi_jama.png
 INPUT ./chapters/conclusion.tex
 INPUT ./chapters/conclusion.tex
 OUTPUT chapters/conclusion.aux
@@ -410,6 +427,9 @@ INPUT chapters/sec4.aux
 INPUT ./chapters/sec5.aux
 INPUT ./chapters/sec5.aux
 INPUT chapters/sec5.aux
+INPUT ./chapters/sec_kousatu.aux
+INPUT ./chapters/sec_kousatu.aux
+INPUT chapters/sec_kousatu.aux
 INPUT ./chapters/conclusion.aux
 INPUT ./chapters/conclusion.aux
 INPUT chapters/conclusion.aux
