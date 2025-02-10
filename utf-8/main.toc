@@ -17,7 +17,7 @@
 \contentsline {subsection}{\numberline {4.1}ロボット概要}{9}{}%
 \contentsline {subsection}{\numberline {4.2}頭部}{10}{}%
 \contentsline {subsection}{\numberline {4.3}胴体部}{10}{}%
-\contentsline {subsection}{\numberline {4.4}外皮}{13}{}%
+\contentsline {subsection}{\numberline {4.4}柔軟外皮}{13}{}%
 \contentsline {section}{\numberline {5}遊泳実験}{15}{}%
 \contentsline {subsection}{\numberline {5.1}実験条件}{15}{}%
 \contentsline {subsection}{\numberline {5.2}実験結果}{16}{}%

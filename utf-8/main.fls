@@ -1,8 +1,8 @@
-PWD c:/Users/watanabe_shouta/2024_graduation_thesis/utf-8
+PWD c:/Users/suzum/2024_graduation/utf-8
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/euptex/platex.fmt
-INPUT c:/Users/watanabe_shouta/2024_graduation_thesis/utf-8/main.tex
+INPUT c:/Users/suzum/2024_graduation/utf-8/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2024/texmf-dist/tex/platex/base/jarticle.cls
 INPUT c:/texlive/2024/texmf-dist/tex/platex/base/jarticle.cls
@@ -76,6 +76,8 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/pdfpages/ppdvipdfmx.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/pdfpages/ppdvipdfmx.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/pdfpages/ppdvipdfmx.def
@@ -374,6 +376,10 @@ INPUT ./chapters/picture/gaihi.jpg
 INPUT ./chapters/picture/gaihi.jpg
 INPUT ./chapters/picture/gaihi.jpg
 INPUT extractbb -B cropbox -O chapters/picture/gaihi.jpg
+INPUT ./chapters/picture/gaihi_kotei.png
+INPUT ./chapters/picture/gaihi_kotei.png
+INPUT ./chapters/picture/gaihi_kotei.png
+INPUT extractbb -B cropbox -O chapters/picture/gaihi_kotei.png
 INPUT ./chapters/sec5.tex
 INPUT ./chapters/sec5.tex
 OUTPUT chapters/sec5.aux
