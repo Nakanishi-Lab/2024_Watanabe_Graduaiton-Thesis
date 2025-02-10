@@ -385,10 +385,6 @@ INPUT ./chapters/picture/obire_amp.png
 INPUT ./chapters/picture/obire_amp.png
 INPUT ./chapters/picture/obire_amp.png
 INPUT extractbb -B cropbox -O chapters/picture/obire_amp.png
-INPUT ./chapters/picture/kukkyoku.png
-INPUT ./chapters/picture/kukkyoku.png
-INPUT ./chapters/picture/kukkyoku.png
-INPUT extractbb -B cropbox -O chapters/picture/kukkyoku.png
 INPUT ./chapters/picture/test.png
 INPUT ./chapters/picture/test.png
 INPUT ./chapters/picture/test.png
@@ -397,6 +393,10 @@ INPUT ./chapters/picture/test2.png
 INPUT ./chapters/picture/test2.png
 INPUT ./chapters/picture/test2.png
 INPUT extractbb -B cropbox -O chapters/picture/test2.png
+INPUT ./chapters/picture/kukkyoku.png
+INPUT ./chapters/picture/kukkyoku.png
+INPUT ./chapters/picture/kukkyoku.png
+INPUT extractbb -B cropbox -O chapters/picture/kukkyoku.png
 INPUT ./chapters/picture/an90.eps
 INPUT ./chapters/picture/an90.eps
 INPUT ./chapters/picture/an90.eps
