@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.11)  10 FEB 2025 15:09
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.11)  10 FEB 2025 16:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -252,7 +252,7 @@ File: l3backend-dvipdfmx.def 2024-03-14 L3 backend support: dvipdfmx
 \g__pdf_backend_object_int=\count288
 \g__pdf_backend_annotation_int=\count289
 \g__pdf_backend_link_int=\count290
-) (./main.aux (./chapters/abstract.aux) (./chapters/abstract(english).aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/sec_kousatu.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
+) (./main.aux (./chapters/abstract.aux) (./chapters/abstract(english).aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/sec_kousatu.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux) (./chapters/appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -593,7 +593,29 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
 
 
-] (./main.aux (./chapters/abstract.aux) (./chapters/abstract(english).aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/sec_kousatu.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
+]
+\openout2 = `chapters/appendix.aux'.
+
+ (./chapters/appendix.tex
+File: chapters/picture/atugami.jpg Graphic file (type bmp)
+<chapters/picture/atugami.jpg>
+File: chapters/picture/kiban.png Graphic file (type bmp)
+<chapters/picture/kiban.png>
+File: chapters/picture/kiban_real.jpg Graphic file (type bmp)
+<chapters/picture/kiban_real.jpg>
+File: chapters/picture/kiban_kousei.png Graphic file (type bmp)
+<chapters/picture/kiban_kousei.png>
+)
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [26
+
+
+
+]
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [27] (./main.aux (./chapters/abstract.aux) (./chapters/abstract(english).aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/sec_kousatu.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux) (./chapters/appendix.aux))
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01> patch level 1
@@ -601,12 +623,12 @@ L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5923 strings out of 474761
- 106915 string characters out of 5761786
- 1930341 words of memory out of 5000000
- 28085 multiletter control sequences out of 15000+600000
+ 5980 strings out of 474761
+ 108661 string characters out of 5761786
+ 1931341 words of memory out of 5000000
+ 28132 multiletter control sequences out of 15000+600000
  575756 words of font info for 103 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 67i,14n,79p,351b,713s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,14n,79p,351b,714s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (29 pages, 90832 bytes).
+Output written on main.dvi (31 pages, 95076 bytes).

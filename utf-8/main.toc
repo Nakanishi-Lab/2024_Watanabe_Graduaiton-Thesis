@@ -26,3 +26,6 @@
 \contentsline {section}{\numberline {6}結言}{23}{}%
 \contentsline {section}{\numberline {7}謝辞}{24}{}%
 \contentsline {section}{\numberline {8}参考文献}{25}{}%
+\contentsline {section}{\numberline {A}付録}{26}{}%
+\contentsline {subsection}{\numberline {A.1}外皮作成方法}{26}{}%
+\contentsline {subsection}{\numberline {A.2}作製した基板}{26}{}%
