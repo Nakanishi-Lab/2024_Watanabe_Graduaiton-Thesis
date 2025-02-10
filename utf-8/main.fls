@@ -1,8 +1,8 @@
-PWD c:/Users/suzum/2024_graduation/utf-8
+PWD c:/Users/watanabe_shouta/2024_graduation_thesis/utf-8
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/euptex/platex.fmt
-INPUT c:/Users/suzum/2024_graduation/utf-8/main.tex
+INPUT c:/Users/watanabe_shouta/2024_graduation_thesis/utf-8/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2024/texmf-dist/tex/platex/base/jarticle.cls
 INPUT c:/texlive/2024/texmf-dist/tex/platex/base/jarticle.cls
@@ -344,6 +344,10 @@ INPUT ./chapters/picture/obire_amp.png
 INPUT ./chapters/picture/obire_amp.png
 INPUT ./chapters/picture/obire_amp.png
 INPUT extractbb -B cropbox -O chapters/picture/obire_amp.png
+INPUT ./chapters/picture/kukkyoku.png
+INPUT ./chapters/picture/kukkyoku.png
+INPUT ./chapters/picture/kukkyoku.png
+INPUT extractbb -B cropbox -O chapters/picture/kukkyoku.png
 INPUT ./chapters/picture/test.png
 INPUT ./chapters/picture/test.png
 INPUT ./chapters/picture/test.png
@@ -401,6 +405,10 @@ INPUT ./chapters/picture/compare_withskin.eps
 INPUT ./chapters/picture/compare_withskin.eps
 INPUT ./chapters/picture/compare_withskin.eps
 INPUT chapters/picture/compare_withskin.eps
+INPUT ./chapters/picture/body.pdf
+INPUT ./chapters/picture/body.pdf
+INPUT ./chapters/picture/body.pdf
+INPUT extractbb -B cropbox -O chapters/picture/body.pdf
 INPUT ./chapters/conclusion.tex
 INPUT ./chapters/conclusion.tex
 OUTPUT chapters/conclusion.aux
