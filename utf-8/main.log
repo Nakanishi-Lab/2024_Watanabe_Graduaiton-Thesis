@@ -1,102 +1,102 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.11)  7 FEB 2025 18:20
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2025.2.5)  10 FEB 2025 00:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/watanabe_shouta/2024_graduation_thesis/utf-8/main.tex
-(c:/Users/watanabe_shouta/2024_graduation_thesis/utf-8/main.tex
+**c:/Users/suzum/2024_graduation/utf-8/main.tex
+(c:/Users/suzum/2024_graduation/utf-8/main.tex
 pLaTeX2e <2023-02-14>+1, based on
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-03-14>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
 (c:/texlive/2024/texmf-dist/tex/platex/base/jarticle.cls
 Document Class: jarticle 2020/09/30 v1.8f Standard pLaTeX class
-\c@@paper=\count187
+\c@@paper=\count195
 (c:/texlive/2024/texmf-dist/tex/platex/base/jsize11.clo
 File: jsize11.clo 2020/09/30 v1.8f Standard pLaTeX file (size option)
 )
-\c@part=\count188
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@subparagraph=\count193
-\c@figure=\count194
-\c@table=\count195
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
 (Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 615.
-\toclineskip=\dimen156
-\@lnumwidth=\dimen157
-\bibindent=\dimen158
-\heisei=\count196
+\toclineskip=\dimen157
+\@lnumwidth=\dimen158
+\bibindent=\dimen159
+\heisei=\count270
 ) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
 ) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
  (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 ) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvipdfmx.def on input line 107.
+Package graphics Info: Driver file: dvipdfmx.def on input line 106.
  (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
 ))
-\Gin@req@height=\dimen159
-\Gin@req@width=\dimen160
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
 ) (./sty/fancyheadings.sty
-\headrulewidth=\dimen161
-\footrulewidth=\dimen162
-\plainheadrulewidth=\dimen163
-\plainfootrulewidth=\dimen164
-\headwidth=\dimen165
+\headrulewidth=\dimen162
+\footrulewidth=\dimen163
+\plainheadrulewidth=\dimen164
+\plainfootrulewidth=\dimen165
+\headwidth=\dimen166
 ) (./sty/sotsuron2009.sty) (c:/texlive/2024/texmf-dist/tex/latex/here/here.sty) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count197
+\c@float@type=\count271
 \float@exts=\toks19
-\float@box=\box68
+\float@box=\box69
 \@float@everytoks=\toks20
-\@floatcapt=\box69
+\@floatcapt=\box70
 ) (c:/texlive/2024/texmf-dist/tex/latex/ascmac/ascmac.sty
 Package: ascmac 2020/01/15 v2.1 ascmac wrapper (community edition) 
  (c:/texlive/2024/texmf-dist/tex/latex/ascmac/tascmac.sty
 Package: tascmac 2020/01/15 v2.1 ascmac package (community edition) 
-\@savetbaselineshift=\dimen166
-\@saveybaselineshift=\dimen167
-\scb@x=\box70
-\scscb@x=\box71
-\@bw=\dimen168
-\@nbox=\box72
-\@nbody=\box73
-\@scw=\dimen169
-\ascmac@hoboxa=\box74
-\ascmac@hoboxb=\box75
-\@itemh=\dimen170
+\@savetbaselineshift=\dimen167
+\@saveybaselineshift=\dimen168
+\scb@x=\box71
+\scscb@x=\box72
+\@bw=\dimen169
+\@nbox=\box73
+\@nbody=\box74
+\@scw=\dimen170
+\ascmac@hoboxa=\box75
+\ascmac@hoboxb=\box76
+\@itemh=\dimen171
 \@iboxpos=\toks21
-\@iboxstr=\box76
-\@bwsp=\box77
-\@@bwsp=\box78
-\@bcal=\count198
-\shaderule=\dimen171
+\@iboxstr=\box77
+\@bwsp=\box78
+\@@bwsp=\box79
+\@bcal=\count272
+\shaderule=\dimen172
 )) (c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen172
-\captionmargin=\dimen173
-\caption@leftmargin=\dimen174
-\caption@rightmargin=\dimen175
-\caption@width=\dimen176
-\caption@indent=\dimen177
-\caption@parindent=\dimen178
-\caption@hangindent=\dimen179
+\caption@tempdima=\dimen173
+\captionmargin=\dimen174
+\caption@leftmargin=\dimen175
+\caption@rightmargin=\dimen176
+\caption@width=\dimen177
+\caption@indent=\dimen178
+\caption@parindent=\dimen179
+\caption@hangindent=\dimen180
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionskip \iftdir \sbox \@tempboxa {#1\hskip 1zw#2}\else \sbox \@tempboxa {#1: #2}\fi \ifdim \wd \@tempboxa >\hsize \iftdir #1\hskip 1zw#2\relax \par \else #1: #2\relax \par \fi \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \belowcaptionskip  on input line 1175.
@@ -106,21 +106,21 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count199
-\c@continuedfloat=\count266
+\c@caption@flags=\count273
+\c@continuedfloat=\count274
 Package caption Info: float package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count267
+\c@subfigure=\count275
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count268
+\c@subtable=\count276
 ) (c:/texlive/2024/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 ) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip50
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -128,62 +128,62 @@ Package: amstext 2021/08/26 v2.01 AMS text
  (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks22
-\ex@=\dimen180
+\ex@=\dimen181
 )) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen181
+\pmbraise@=\dimen182
 ) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count269
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count270
-\leftroot@=\count271
-LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count272
-\DOTSCASE@=\count273
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box79
-\strutbox@=\box80
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen182
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count274
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count275
-\dotsspace@=\muskip16
-\c@parentequation=\count276
-\dspbrk@lvl=\count277
+\inf@bad=\count277
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count278
+\leftroot@=\count279
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count280
+\DOTSCASE@=\count281
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box80
+\strutbox@=\box81
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen183
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count282
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count283
+\dotsspace@=\muskip17
+\c@parentequation=\count284
+\dspbrk@lvl=\count285
 \tag@help=\toks23
-\row@=\count278
-\column@=\count279
-\maxfields@=\count280
+\row@=\count286
+\column@=\count287
+\maxfields@=\count288
 \andhelp@=\toks24
-\eqnshift@=\dimen183
-\alignsep@=\dimen184
-\tagshift@=\dimen185
-\tagwidth@=\dimen186
-\totwidth@=\dimen187
-\lineht@=\dimen188
+\eqnshift@=\dimen184
+\alignsep@=\dimen185
+\tagshift@=\dimen186
+\tagwidth@=\dimen187
+\totwidth@=\dimen188
+\lineht@=\dimen189
 \@envbody=\toks25
-\multlinegap=\skip51
-\multlinetaggap=\skip52
+\multlinegap=\skip52
+\multlinetaggap=\skip53
 \mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (c:/texlive/2024/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
+Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup5
 \symboldletters=\mathgroup6
 \symboldsymbols=\mathgroup7
@@ -193,18 +193,17 @@ LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 ) (c:/texlive/2024/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
  Excluding comment 'comment') (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
+\Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2024-03-14 L3 backend support: dvips
-\l__pdf_internal_box=\box81
-\g__pdf_backend_object_int=\count281
-\l__pdf_backend_content_box=\box82
-\l__pdf_backend_model_box=\box83
-\g__pdf_backend_annotation_int=\count282
-\g__pdf_backend_link_int=\count283
-\g__pdf_backend_link_sf_int=\count284
-) (./main.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
+File: l3backend-dvips.def 2024-05-08 L3 backend support: dvips
+\l__pdf_internal_box=\box82
+\l__pdf_backend_content_box=\box83
+\l__pdf_backend_model_box=\box84
+\g__pdf_backend_annotation_int=\count289
+\g__pdf_backend_link_int=\count290
+\g__pdf_backend_link_sf_int=\count291
+) (./main.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/sec_kousatu.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -235,10 +234,14 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 2.
- [1
+
+
+[1
 
 
 ])
+
+
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [2] (./main.toc
@@ -250,13 +253,17 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [3
+
+
+[3
 
 
 ]
 \openout2 = `chapters/introduction.aux'.
 
  (./chapters/introduction.tex)
+
+
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [1
@@ -276,6 +283,8 @@ File: chapters/picture/fishrobot.jpg Graphic file (type bmp)
 File: chapters/picture/mosikizu.jpg Graphic file (type bmp)
 <chapters/picture/mosikizu.jpg>
 
+
+
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [2
@@ -289,6 +298,8 @@ File: chapters/picture/zakutu2.png Graphic file (type bmp)
 <chapters/picture/zakutu2.png>
 File: chapters/picture/link.png Graphic file (type bmp)
 <chapters/picture/link.png>
+
+
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
@@ -304,9 +315,13 @@ File: chapters/picture/siro_naka.png Graphic file (type bmp)
 File: chapters/picture/siro_obire.png Graphic file (type bmp)
 <chapters/picture/siro_obire.png>
 
+
+
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [4])
+
+
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [5]
@@ -315,6 +330,8 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
  (./chapters/sec3.tex
 File: chapters/picture/waiyakudou.eps Graphic file (type eps)
 <chapters/picture/waiyakudou.eps>
+
+
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
@@ -332,6 +349,8 @@ File: chapters/picture/ring.jpg Graphic file (type bmp)
 File: chapters/picture/jikkilink.png Graphic file (type bmp)
 <chapters/picture/jikkilink.png>
 
+
+
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [7]
@@ -340,6 +359,8 @@ File: chapters/picture/bousuitest.png Graphic file (type bmp)
 File: chapters/picture/sisakuoyogu2.png Graphic file (type bmp)
 <chapters/picture/sisakuoyogu2.png>
 )
+
+
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [8]
@@ -348,12 +369,16 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
  (./chapters/sec4.tex
 File: chapters/picture/withskin.jpg Graphic file (type bmp)
 <chapters/picture/withskin.jpg>
+File: chapters/picture/without_skin.jpg Graphic file (type bmp)
+<chapters/picture/without_skin.jpg>
 File: chapters/picture/fish.png Graphic file (type bmp)
 <chapters/picture/fish.png>
 File: chapters/picture/scan.png Graphic file (type bmp)
 <chapters/picture/scan.png>
 File: chapters/picture/fishkinji2.png Graphic file (type bmp)
 <chapters/picture/fishkinji2.png>
+
+
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
@@ -372,10 +397,6 @@ File: chapters/picture/bousui_naka.jpg Graphic file (type bmp)
 <chapters/picture/bousui_naka.jpg>
 File: chapters/picture/bousui_sentou.jpg Graphic file (type bmp)
 <chapters/picture/bousui_sentou.jpg>
-
-Overfull \vbox (16.5851pt too high) has occurred while \output is active []
-
- [10]
 File: chapters/picture/open_head.jpg Graphic file (type bmp)
 <chapters/picture/open_head.jpg>
 File: chapters/picture/rock.png Graphic file (type bmp)
@@ -384,6 +405,21 @@ File: chapters/picture/toubu_kiban.png Graphic file (type bmp)
 <chapters/picture/toubu_kiban.png>
 File: chapters/picture/toubu_battery.png Graphic file (type bmp)
 <chapters/picture/toubu_battery.png>
+
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [10]
+
+LaTeX Warning: Text page 11 contains only floats.
+
+
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [11]
 File: chapters/picture/kudou.png Graphic file (type bmp)
 <chapters/picture/kudou.png>
 File: chapters/picture/cover.jpg Graphic file (type bmp)
@@ -395,12 +431,16 @@ File: chapters/picture/link_danseita.jpg Graphic file (type bmp)
 File: chapters/picture/obire.jpg Graphic file (type bmp)
 <chapters/picture/obire.jpg>
 
-Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [11]
+
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [12]
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [13]
 File: chapters/picture/atata.jpg Graphic file (type bmp)
 <chapters/picture/atata.jpg>
 File: chapters/picture/katata.jpg Graphic file (type bmp)
@@ -408,22 +448,24 @@ File: chapters/picture/katata.jpg Graphic file (type bmp)
 File: chapters/picture/gaihi.jpg Graphic file (type bmp)
 <chapters/picture/gaihi.jpg>
 )
+
+
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [13]
+ [14]
 \openout2 = `chapters/sec5.aux'.
 
  (./chapters/sec5.tex
-File: chapters/picture/without_skin.jpg Graphic file (type bmp)
-<chapters/picture/without_skin.jpg>
 File: chapters/picture/servo.png Graphic file (type bmp)
 <chapters/picture/servo.png>
 File: chapters/picture/obire_amp.png Graphic file (type bmp)
 <chapters/picture/obire_amp.png>
 
+
+
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [14
+ [15
 
 
 
@@ -439,25 +481,63 @@ File: chapters/picture/an135.eps Graphic file (type eps)
 File: chapters/picture/an180.eps Graphic file (type eps)
 <chapters/picture/an180.eps>
 )
-Overfull \vbox (16.5851pt too high) has occurred while \output is active []
-
- [15]
-
-LaTeX Warning: Text page 16 contains only floats.
-
-
-Overfull \vbox (2.6546pt too high) has occurred while \output is active []
 
 
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
  [16]
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [17]
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [18]
+\openout2 = `chapters/sec_kousatu.aux'.
+
+ (./chapters/sec_kousatu.tex
+File: chapters/picture/gaihi_jama_nasi.png Graphic file (type bmp)
+<chapters/picture/gaihi_jama_nasi.png>
+File: chapters/picture/gaihi_jama.png Graphic file (type bmp)
+<chapters/picture/gaihi_jama.png>
+
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [19
+
+
+
+]
+File: chapters/picture/teikou.png Graphic file (type bmp)
+<chapters/picture/teikou.png>
+File: chapters/picture/compare_withoutskin.eps Graphic file (type eps)
+<chapters/picture/compare_withoutskin.eps>
+File: chapters/picture/compare_withskin.eps Graphic file (type eps)
+<chapters/picture/compare_withskin.eps>
+
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [20])
+
+
+Overfull \vbox (16.5851pt too high) has occurred while \output is active []
+
+ [21]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex)
+
+
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [17
+ [22
 
 
 
@@ -465,9 +545,11 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 \openout2 = `chapters/acknowledgement.aux'.
 
  (./chapters/acknowledgement.tex)
+
+
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [18
+ [23
 
 
 
@@ -475,26 +557,28 @@ Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 \openout2 = `chapters/bibliography.aux'.
 
  (./chapters/bibliography.tex)
+
+
 Overfull \vbox (16.5851pt too high) has occurred while \output is active []
 
- [19
+ [24
 
 
 
-] (./main.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
+] (./main.aux (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/sec2.aux) (./chapters/sec3.aux) (./chapters/sec4.aux) (./chapters/sec5.aux) (./chapters/sec_kousatu.aux) (./chapters/conclusion.aux) (./chapters/acknowledgement.aux) (./chapters/bibliography.aux))
  ***********
 pLaTeX2e <2023-02-14>+1, based on
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-03-14>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4383 strings out of 474761
- 80361 string characters out of 5761786
- 1929341 words of memory out of 5000000
- 26609 multiletter control sequences out of 15000+600000
- 575756 words of font info for 103 fonts, out of 8000000 for 9000
+ 4466 strings out of 473863
+ 82754 string characters out of 5734892
+ 467312 words of memory out of 5000000
+ 27558 multiletter control sequences out of 15000+600000
+ 576524 words of font info for 103 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 67i,14n,77p,351b,693s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,14n,77p,334b,693s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (22 pages, 64552 bytes).
+Output written on main.dvi (27 pages, 76596 bytes).

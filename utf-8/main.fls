@@ -1,8 +1,8 @@
-PWD c:/Users/watanabe_shouta/2024_graduation_thesis/utf-8
+PWD c:/Users/suzum/2024_graduation/utf-8
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/euptex/platex.fmt
-INPUT c:/Users/watanabe_shouta/2024_graduation_thesis/utf-8/main.tex
+INPUT c:/Users/suzum/2024_graduation/utf-8/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2024/texmf-dist/tex/platex/base/jarticle.cls
 INPUT c:/texlive/2024/texmf-dist/tex/platex/base/jarticle.cls
@@ -88,6 +88,9 @@ INPUT chapters/sec4.aux
 INPUT ./chapters/sec5.aux
 INPUT ./chapters/sec5.aux
 INPUT chapters/sec5.aux
+INPUT ./chapters/sec_kousatu.aux
+INPUT ./chapters/sec_kousatu.aux
+INPUT chapters/sec_kousatu.aux
 INPUT ./chapters/conclusion.aux
 INPUT ./chapters/conclusion.aux
 INPUT chapters/conclusion.aux
@@ -243,6 +246,10 @@ INPUT ./chapters/picture/withskin.jpg
 INPUT ./chapters/picture/withskin.jpg
 INPUT ./chapters/picture/withskin.jpg
 INPUT extractbb -B cropbox -O chapters/picture/withskin.jpg
+INPUT ./chapters/picture/without_skin.jpg
+INPUT ./chapters/picture/without_skin.jpg
+INPUT ./chapters/picture/without_skin.jpg
+INPUT extractbb -B cropbox -O chapters/picture/without_skin.jpg
 INPUT ./chapters/picture/fish.png
 INPUT ./chapters/picture/fish.png
 INPUT ./chapters/picture/fish.png
@@ -329,10 +336,6 @@ OUTPUT chapters/sec5.aux
 INPUT ./chapters/sec5.tex
 INPUT ./chapters/sec5.tex
 INPUT chapters/sec5.tex
-INPUT ./chapters/picture/without_skin.jpg
-INPUT ./chapters/picture/without_skin.jpg
-INPUT ./chapters/picture/without_skin.jpg
-INPUT extractbb -B cropbox -O chapters/picture/without_skin.jpg
 INPUT ./chapters/picture/servo.png
 INPUT ./chapters/picture/servo.png
 INPUT ./chapters/picture/servo.png
@@ -372,6 +375,32 @@ INPUT ./chapters/picture/an180.eps
 INPUT ./chapters/picture/an180.eps
 INPUT ./chapters/picture/an180.eps
 INPUT chapters/picture/an180.eps
+INPUT ./chapters/sec_kousatu.tex
+INPUT ./chapters/sec_kousatu.tex
+OUTPUT chapters/sec_kousatu.aux
+INPUT ./chapters/sec_kousatu.tex
+INPUT ./chapters/sec_kousatu.tex
+INPUT chapters/sec_kousatu.tex
+INPUT ./chapters/picture/gaihi_jama_nasi.png
+INPUT ./chapters/picture/gaihi_jama_nasi.png
+INPUT ./chapters/picture/gaihi_jama_nasi.png
+INPUT extractbb -B cropbox -O chapters/picture/gaihi_jama_nasi.png
+INPUT ./chapters/picture/gaihi_jama.png
+INPUT ./chapters/picture/gaihi_jama.png
+INPUT ./chapters/picture/gaihi_jama.png
+INPUT extractbb -B cropbox -O chapters/picture/gaihi_jama.png
+INPUT ./chapters/picture/teikou.png
+INPUT ./chapters/picture/teikou.png
+INPUT ./chapters/picture/teikou.png
+INPUT extractbb -B cropbox -O chapters/picture/teikou.png
+INPUT ./chapters/picture/compare_withoutskin.eps
+INPUT ./chapters/picture/compare_withoutskin.eps
+INPUT ./chapters/picture/compare_withoutskin.eps
+INPUT chapters/picture/compare_withoutskin.eps
+INPUT ./chapters/picture/compare_withskin.eps
+INPUT ./chapters/picture/compare_withskin.eps
+INPUT ./chapters/picture/compare_withskin.eps
+INPUT chapters/picture/compare_withskin.eps
 INPUT ./chapters/conclusion.tex
 INPUT ./chapters/conclusion.tex
 OUTPUT chapters/conclusion.aux
@@ -410,6 +439,9 @@ INPUT chapters/sec4.aux
 INPUT ./chapters/sec5.aux
 INPUT ./chapters/sec5.aux
 INPUT chapters/sec5.aux
+INPUT ./chapters/sec_kousatu.aux
+INPUT ./chapters/sec_kousatu.aux
+INPUT chapters/sec_kousatu.aux
 INPUT ./chapters/conclusion.aux
 INPUT ./chapters/conclusion.aux
 INPUT chapters/conclusion.aux
