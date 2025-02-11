@@ -386,10 +386,10 @@ OUTPUT chapters/sec5.aux
 INPUT ./chapters/sec5.tex
 INPUT ./chapters/sec5.tex
 INPUT chapters/sec5.tex
-INPUT ./chapters/picture/servo.png
-INPUT ./chapters/picture/servo.png
-INPUT ./chapters/picture/servo.png
-INPUT extractbb -B cropbox -O chapters/picture/servo.png
+INPUT ./chapters/picture/servo2.png
+INPUT ./chapters/picture/servo2.png
+INPUT ./chapters/picture/servo2.png
+INPUT extractbb -B cropbox -O chapters/picture/servo2.png
 INPUT ./chapters/picture/obire_amp.png
 INPUT ./chapters/picture/obire_amp.png
 INPUT ./chapters/picture/obire_amp.png
