@@ -1,7 +1,7 @@
 \newpage
 
-\section{ワイヤ駆動式柔軟外皮装着型魚ロボット}
-本章では先行研究\cite{kyu}や試作ロボットから得られた知見をもとに本研究で開発した，柔軟外皮がリンクの動きに追従し，完全防水可能かつメンテンナンス性を向上させた，柔軟外皮装着型
+\section{柔軟外皮装着型ワイヤ駆動式魚ロボット}
+本章では先行研究\cite{kyu}や試作ロボットから得られた知見をもとに開発した，柔軟外皮とリンクが連動し，完全防水可能かつメンテンナンス性を向上させた柔軟外皮装着型
 のワイヤ駆動式魚ロボットについて述べる．
 \subsection{ロボット概要}
 図\ref{fig:fishrobo_with}に開発した機体の外観を，図\ref{fig:kouzou}に構造を示す．開発した魚ロボットは体長470 mm，重量は重り（25 g）を含めて710 gである．
@@ -10,7 +10,7 @@
     \begin{subfigure}[b]{0.85\linewidth}
         \centering
         \includegraphics[width=0.9\linewidth]{chapters/picture/withskin.jpg}
-        \subcaption{外皮装着時}
+        \subcaption{柔軟外皮装着時}
         \label{fig:fishrobo_with}
     \end{subfigure}
     \begin{subfigure}[b]{0.85\linewidth}
@@ -25,7 +25,7 @@
         \caption{開発したロボットの構造}
         \label{fig:kouzou}
     \end{subfigure}
-    \caption{開発したロボット}
+    \caption{開発した柔軟外皮装着型ワイヤ駆動式魚ロボット}
     \label{fig:gaikan}
 \end{figure}
 ロボットの外形は
@@ -35,20 +35,20 @@
 \begin{figure}[t]
     \centering
     \includegraphics[width=0.7\linewidth]{chapters/picture/scan.png}
-    \caption{アジのスキャンデータ}
+    \caption{アジの3Dスキャンデータ}
     \label{fig:data_scan}
 \end{figure}
 \begin{figure}[t]
     \centering
     \includegraphics[width=0.7\linewidth]{chapters/picture/fishkinji2.png}
-    \caption{アジのモデルデータ}
+    \caption{アジの3Dモデルデータ}
     \label{fig:data_model}
 \end{figure}
 
 \subsection{頭部}
 頭部はフレーム部分とシリコン製の外皮部分からなる．フレーム部分は光造形方式の3Dプリンタで作製しており，胴体前部と一体となっている．フレーム内部にはバッテリーと制御回路を搭載しており，使用するバッテリー，マイコン共に試作機と同じものを用いた．バッテリーと
-マイコンを搭載する都合上頭部を防水する必要があり，試作機から得た知見をもとに今回はOリングによる防水ではなく，シリコン製の外皮を用いて防水を行った．
-防水方法としてはシリコン製の外皮を頭部にかぶせ，根元を防水リングによって締め付けることで防水を行った（図\ref{fig:bousui}）．防水リングのサイズは\cite{juuiti}を参考に締め付ける部分が
+マイコンを搭載する都合上頭部を防水する必要があり，試作機から得た知見をもとに今回はOリングによる防水ではなく，シリコン製の柔軟外皮を用いて防水を行った．
+防水方法としてはシリコン製の柔軟外皮を頭部にかぶせ，根元を防水リングによって締め付けることで防水を行った（図\ref{fig:bousui}）．防水リングのサイズは\cite{juuiti}を参考に締め付ける部分が
 短径，長径ともに10％つぶせるように設計した．
 また，試作機と同様に防水実験を1回行ったが，内部に貼ったシールはどれも赤く染まらず，完全な防水ができた（図\ref{fig:bousui_test}）．
 また，フレーム部分は上部と下部のカバーが開くようになっており，メンテナンス性向上のためにねじ止めではなくワンタッチでカバーを開閉できるようにしている
@@ -68,11 +68,11 @@
         \begin{minipage}[b]{0.33\linewidth}
             \centering
             \setPicture{jissai.jpg}
-            \subcaption{実際の様子}
+            \subcaption{実際に装着した様子}
             \label{fig:bousui_jissai} 
         \end{minipage}
     \end{tabular}
-    \caption{頭部防水について}
+    \caption{頭部防水}
     \label{fig:bousui}
 \end{figure}
 \begin{figure}[t]
@@ -105,7 +105,7 @@
     \begin{minipage}[b]{0.3\linewidth}
         \centering
         \includegraphics[width=0.4\linewidth]{chapters/picture/open_head.jpg}
-        \caption{頭部開放時の様子}
+        \caption{頭部全開時の様子}
         \label{fig:head_open}
     \end{minipage}
     \begin{minipage}[b]{0.44\linewidth}
@@ -150,7 +150,7 @@
     \begin{minipage}[b]{0.32\linewidth}
         \centering
         \setPicture{kudou.png}
-        \caption{駆動部のようす}
+        \caption{駆動部}
         \label{fig:kudou}
     \end{minipage}
     \hspace{0.1\linewidth}
@@ -166,14 +166,14 @@
     \begin{minipage}[b]{0.30\linewidth}
         \centering
         \setPicture{link2.png}
-        \caption{骨格リンクについて}
+        \caption{骨格リンク}
         \label{fig:link2}
     \end{minipage}
     \hspace{0.1\linewidth}
     \begin{minipage}[b]{0.33\linewidth}
         \centering
         \setPicture{link_danseita.jpg}
-        \caption{実際の弾性体部}
+        \caption{弾性体部}
         \label{fig:real_link}
     \end{minipage}
 \end{figure}
@@ -187,8 +187,8 @@
 かないようにした．また，尾びれにはトラッキング用のマーカー（PLA樹脂）を取り付けた．
 
 \subsection{柔軟外皮}
-柔軟外皮は頭部と胴体部用に二つ作製した．今回は先行研究\cite{kyu}を参考に柔軟外皮を作製するため鋳造のように型にシリコン（Smooth-On社，ECOFLEX30）を流し入れることによって柔軟外皮の作成を行った．図\ref{fig:katanaka}に作製・使用した型
-と中子をそれぞれ示す．ここで中子とは鋳造において中空部を作るために使われているもので, 型の間にはめ込んで使用する．この制作方法において柔軟外皮の外寸サイズを決定するのは型に作る
+柔軟外皮は頭部と胴体部用に二つ作製した．今回は先行研究\cite{kyu}を参考に柔軟外皮を作製するため鋳造のように型にシリコン（Smooth-On社，ECOFLEX30）を流し入れることによって柔軟外皮の作製を行った．図\ref{fig:katanaka}に作製・使用した型
+と中子をそれぞれ示す．ここで中子とは鋳造において中空部を作るために使われているもので, 型の間にはめ込んで使用する．この製作方法において柔軟外皮の外寸サイズを決定するのは型に作る
 くぼみ，内寸サイズを決定するのは中子となる．したがってここから型のくぼみのサイズを柔軟外皮の外寸，中子のサイズを柔軟外皮の内寸と呼ぶ．
 
 まず頭部用の柔軟外皮について，柔軟外皮の内寸は柔軟外皮と頭部が密着するようにアジの3Dモデルの頭部のサイズをそのまま使用した．外寸については体高方向に2 mm，体幅方向に3 mmの厚みになるよう

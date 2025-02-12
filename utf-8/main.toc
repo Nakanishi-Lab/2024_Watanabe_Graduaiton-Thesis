@@ -13,7 +13,7 @@
 \contentsline {subsubsection}{\numberline {3.2.1}試作機の作製}{6}{}%
 \contentsline {subsubsection}{\numberline {3.2.2}防水テスト・遊泳テスト}{8}{}%
 \contentsline {subsubsection}{\numberline {3.2.3}試作機から得られた知見}{8}{}%
-\contentsline {section}{\numberline {4}ワイヤ駆動式柔軟外皮装着型魚ロボット}{9}{}%
+\contentsline {section}{\numberline {4}柔軟外皮装着型ワイヤ駆動式魚ロボット}{9}{}%
 \contentsline {subsection}{\numberline {4.1}ロボット概要}{9}{}%
 \contentsline {subsection}{\numberline {4.2}頭部}{10}{}%
 \contentsline {subsection}{\numberline {4.3}胴体部}{12}{}%
