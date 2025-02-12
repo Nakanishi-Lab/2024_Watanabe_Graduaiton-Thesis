@@ -3,8 +3,8 @@
 \contentsline {subsection}{\numberline {2.1}柔軟外皮装着型魚ロボット}{2}{}%
 \contentsline {subsubsection}{\numberline {2.1.1}頭部}{3}{}%
 \contentsline {subsubsection}{\numberline {2.1.2}胴体部}{3}{}%
-\contentsline {subsection}{\numberline {2.2}遊泳実験}{3}{}%
-\contentsline {subsubsection}{\numberline {2.2.1}実験条件}{3}{}%
+\contentsline {subsection}{\numberline {2.2}遊泳実験}{4}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}実験条件}{4}{}%
 \contentsline {subsubsection}{\numberline {2.2.2}実験結果}{4}{}%
 \contentsline {subsection}{\numberline {2.3}得られた知見}{5}{}%
 \contentsline {section}{\numberline {3}柔軟外皮を備えたワイヤ駆動式魚ロボットの開発}{6}{}%

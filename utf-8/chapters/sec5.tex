@@ -16,7 +16,7 @@ $\theta$ [deg]はプーリの回転角（糸の巻き取り量）を表してい
 \begin{figure}[hb]
     \centering
     \includegraphics[width=0.6\linewidth]{chapters/picture/obire_amp.png}
-    \caption{尾びれ振幅}
+    \caption{尾びれ振幅の定義}
     \label{fig:obire_amp}
 \end{figure}
 尾びれ振幅は体をどのくらい屈曲させるかのパラメータであり，ワイヤの巻き取り量が多いほど大きくなる（図\ref{fig:obire_amp}）．柔軟外皮未装着の状態で，空中にて動作させた様子からトラッキングソフト
@@ -32,15 +32,7 @@ $\theta$ [deg]はプーリの回転角（糸の巻き取り量）を表してい
 
 \subsection{実験結果}
 図\ref{fig:test_swim}に柔軟外皮を装着した状態で尾びれ振幅$168\:^\circ$，尾びれ周波数1.75 Hzの時の遊泳実験の様子を示す．全ての遊泳実験において頭部に浸水することはなく，バッテリーの
-交換やメンテンナンスなども試作機と比べてスムーズに行うことができた．また，柔軟外皮はリンクにうまく追従して遊泳し，胴体を屈曲させたときにしわがよることもなかった．しかし，遊泳
-時の様子を見ると同じパラメータでも図\ref{fig:kukkyoku}のように柔軟外皮装着時に尾びれの振りの大きさが未装着時よりも小さくなる傾向があった．また，すべての遊泳実験で図\ref{fig:str}のように直進させたかったが，
-図\ref{fig:right}のように進行方向が右に傾いたり左に傾いたりしてしまう時があった．
-
-次に実験結果から遊泳速度を計測した結果を図\ref{fig:amp}に示す．グラフのエラーバーは標準偏差を示している．グラフから，まず柔軟外皮あり・なし両方に共通して尾びれ周波数が
-高くなるほど遊泳速度が大きくなっていることがわかる．また，すべての実験において柔軟外皮装着状態の方が未装着時よりも遊泳速度が速くなっている．さらに尾びれ振幅が大きくなるにつれて
-柔軟外皮装着時と未装着時における速度差が大きくなることも分かった．しかし，柔軟外皮未装着の状態だと振幅が大きくなっても最高速度にそこまで差が生まれていないことがわかる．
-また，今回の実験において最高速度は柔軟外皮を装着し，振幅$168\:^\circ$，周波数1.75 Hz時の278.2 mm/sであった．
-
+交換やメンテンナンスなども試作機と比べてスムーズに行うことができた．
 \begin{figure}[htbp]
    \centering  
    \begin{subfigure}[b]{1\linewidth}
@@ -58,30 +50,39 @@ $\theta$ [deg]はプーリの回転角（糸の巻き取り量）を表してい
    \caption{振幅$168\:^\circ$，周波数1.75 Hzの時の遊泳実験の様子}
    \label{fig:test_swim}
 \end{figure}
-\begin{figure}[htbp]
+また，柔軟外皮はリンクにうまく追従して遊泳し，胴体を屈曲させたときにしわがよることもなかった．しかし，遊泳
+時の様子を見ると同じパラメータでも図\ref{fig:kukkyoku}のように柔軟外皮装着時に尾びれの振りの大きさが未装着時よりも小さくなる傾向があった．また，すべての遊泳実験で図\ref{fig:str}のように直進させたかったが，
+図\ref{fig:right}のように進行方向が右に傾いたり左に傾いたりしてしまう時があった．
+
+\begin{figure}[t]
     \centering
     \setPicture{kukkyoku.png}
     \caption{振幅$168\:^\circ$，周波数1.75 Hzのときの柔軟外皮あり・なしそれぞれの遊泳実験の様子}
     \label{fig:kukkyoku}
 \end{figure}
 
+次に実験結果から遊泳速度を計測した結果を図\ref{fig:amp}に示す．グラフのエラーバーは標準偏差を示している．グラフから，まず柔軟外皮あり・なし両方に共通して尾びれ周波数が
+高くなるほど遊泳速度が大きくなっていることがわかる．また，すべての実験において柔軟外皮装着状態の方が未装着時よりも遊泳速度が速くなっている．さらに尾びれ振幅が大きくなるにつれて
+柔軟外皮装着時と未装着時における速度差が大きくなることも分かった．しかし，柔軟外皮未装着の状態だと振幅が大きくなっても最高速度にそこまで差が生まれていないことがわかる．
+また，今回の実験において最高速度は柔軟外皮を装着し，振幅$168\:^\circ$，周波数1.75 Hz時の278.2 mm/sであった．
+
 \begin{figure}[t]
    \centering  
-   \begin{subfigure}[b]{0.53\linewidth}
+   \begin{subfigure}[b]{0.49\linewidth}
        \centering
-       \includegraphics[width=0.9\linewidth]{chapters/picture/an90.eps}
+       \includegraphics[width=1\linewidth]{chapters/picture/an90.eps}
        \subcaption{尾びれ振幅$81\:^\circ$の場合}
        \label{fig:an90}
-   \end{subfigure}
-   \begin{subfigure}[b]{0.53\linewidth}
+   \end{subfigure} %
+   \begin{subfigure}[b]{0.49\linewidth}
        \centering
-       \includegraphics[width=0.9\linewidth]{chapters/picture/an135.eps}
+       \includegraphics[width=1\linewidth]{chapters/picture/an135.eps}
        \subcaption{尾びれ振幅$114\:^\circ$の場合}
        \label{fig:an135}
-   \end{subfigure}
-   \begin{subfigure}[b]{0.53\linewidth}
+   \end{subfigure} \\
+   \begin{subfigure}[b]{0.49\linewidth}
        \centering
-       \includegraphics[width=0.9\linewidth]{chapters/picture/an180.eps}
+       \includegraphics[width=1\linewidth]{chapters/picture/an180.eps}
        \subcaption{尾びれ振幅$168\:^\circ$の場合}
        \label{fig:an180}
    \end{subfigure}
